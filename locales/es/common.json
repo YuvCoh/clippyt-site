@@ -1,0 +1,146 @@
+{
+  "app": {
+    "name": "ClippYT",
+    "tagline": "Recorta y Comparte Videos",
+    "description": "Crea y comparte clips de video de YouTube, Vimeo y Dailymotion"
+  },
+  "platforms": {
+    "youtube": "YouTube",
+    "vimeo": "Vimeo",
+    "dailymotion": "Dailymotion",
+    "all": "Todas las Plataformas"
+  },
+  "nav": {
+    "home": "Inicio",
+    "browse": "Explorar",
+    "console": "Mis Clips",
+    "clipConsole": "Mis Clips",
+    "settings": "Ajustes",
+    "admin": "Admin",
+    "auth": "Iniciar Sesión",
+    "signOut": "Cerrar Sesión",
+    "profile": "Perfil"
+  },
+  "actions": {
+    "create": "Crear",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "share": "Compartir",
+    "copy": "Copiar",
+    "download": "Descargar",
+    "upload": "Subir",
+    "refresh": "Actualizar",
+    "retry": "Reintentar",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "viewAll": "Ver Todo",
+    "learnMore": "Saber Más"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "saving": "Guardando...",
+    "deleting": "Eliminando...",
+    "processing": "Procesando...",
+    "success": "¡Éxito!",
+    "error": "Error",
+    "warning": "Advertencia",
+    "info": "Información",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No",
+    "ok": "OK",
+    "optional": "Opcional",
+    "required": "Requerido",
+    "none": "Ninguno",
+    "all": "Todo",
+    "or": "o",
+    "and": "y",
+    "signIn": "Iniciar Sesión"
+  },
+  "empty": {
+    "noResults": "No se encontraron resultados",
+    "noData": "No hay datos disponibles",
+    "tryAgain": "Por favor, inténtalo de nuevo",
+    "noClips": "No se encontraron clips",
+    "noPlaylists": "No se encontraron listas",
+    "noUsers": "No se encontraron usuarios",
+    "nothingHere": "Nada por aquí todavía.",
+    "noDescription": "Sin descripción"
+  },
+  "offline": {
+    "title": "Estás sin conexión",
+    "message": "Por favor, verifica tu conexión a internet",
+    "retry": "Reintentar conexión"
+  },
+  "success": {
+    "clipCreated": "¡Clip guardado!",
+    "clipUpdated": "¡Clip pulido!",
+    "clipDeleted": "¡Clip eliminado exitosamente!",
+    "playlistCreated": "¡Mixtape creado!",
+    "playlistUpdated": "¡Mixtape actualizado!",
+    "playlistDeleted": "Mixtape eliminado.",
+    "playlistSaved": "Lista guardada exitosamente",
+    "linkCopied": "¡Enlace copiado. Ve a presumir!",
+    "clipUrlCopied": "¡URL del clip copiada al portapapeles!",
+    "settingsSaved": "Ajustes guardados de forma segura."
+  },
+  "a11y": {
+    "skipToMain": "Saltar al contenido principal",
+    "skipToNav": "Saltar a navegación",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "closeModal": "Cerrar modal",
+    "logoAlt": "Logo de ClippYT",
+    "userAvatar": "Tu cara aquí",
+    "thumbnail": "Vista previa del video",
+    "imageAlt": "Imagen",
+    "emptyAlt": ""
+  },
+  "time": {
+    "seconds": "segundos",
+    "minutes": "minutos",
+    "hours": "horas",
+    "days": "días",
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "años",
+    "ago": "hace",
+    "justNow": "justo ahora",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "tomorrow": "Mañana"
+  },
+  "validation": {
+    "required": "Este campo es requerido",
+    "email": "Por favor, ingresa un correo válido",
+    "url": "Por favor, ingresa una URL válida",
+    "min": "Mínimo {{count}} caracteres",
+    "max": "Máximo {{count}} caracteres",
+    "minValue": "El valor mínimo es {{value}}",
+    "maxValue": "El valor máximo es {{value}}",
+    "numeric": "Por favor, ingresa un número válido",
+    "match": "Los campos deben coincidir"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página",
+    "of": "de",
+    "showing": "Mostrando",
+    "to": "a",
+    "results": "resultados"
+  },
+  "clipboard": {
+    "copied": "¡Copiado al portapapeles!",
+    "copyFailed": "Error al copiar"
+  }
+}

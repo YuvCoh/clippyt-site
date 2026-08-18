@@ -1,0 +1,103 @@
+{
+  "title": "הגדרות",
+  "subtitle": "נהל את החשבון וההעדפות שלך",
+  "sections": {
+    "profile": "פרופיל",
+    "preferences": "העדפות",
+    "notifications": "התראות",
+    "privacy": "פרטיות",
+    "accessibility": "נגישות",
+    "account": "חשבון"
+  },
+  "profile": {
+    "title": "מידע פרופיל",
+    "displayName": "שם תצוגה",
+    "email": "אימייל",
+    "avatar": "תמונת פרופיל",
+    "bio": "אודות",
+    "website": "אתר אינטרנט",
+    "save": "שמור שינויים",
+    "success": "הפרופיל עודכן בהצלחה!",
+    "error": "עדכון הפרופיל נכשל"
+  },
+  "preferences": {
+    "title": "העדפות",
+    "language": "שפה",
+    "theme": "ערכת נושא",
+    "themeOptions": {
+      "light": "בהיר",
+      "dark": "כהה",
+      "system": "מערכת"
+    },
+    "defaultPrivacy": "פרטיות ברירת מחדל לקליפ",
+    "autoplay": "הפעלה אוטומטית של סרטונים",
+    "success": "ההעדפות עודכנו!"
+  },
+  "notifications": {
+    "title": "העדפות התראות",
+    "email": "התראות באימייל",
+    "push": "התראות דחיפה",
+    "types": {
+      "comments": "תגובות על הקליפים שלי",
+      "likes": "לייקים על הקליפים שלי",
+      "shares": "מישהו שיתף את הקליפ שלי",
+      "playlists": "נוסף לרשימת השמעה",
+      "featured": "קליפ מומלץ",
+      "updates": "עדכוני מוצר"
+    },
+    "success": "העדפות ההתראות עודכנו!"
+  },
+  "privacy": {
+    "title": "הגדרות פרטיות",
+    "profileVisibility": "נראות פרופיל",
+    "visibilityOptions": {
+      "public": "ציבורי",
+      "private": "פרטי"
+    },
+    "showEmail": "הצג אימייל בפרופיל",
+    "allowComments": "אפשר תגובות על קליפים",
+    "allowSharing": "אפשר שיתוף קליפים",
+    "success": "הגדרות הפרטיות עודכנו!"
+  },
+  "accessibility": {
+    "title": "נגישות",
+    "reducedMotion": "הפחת תנועה",
+    "reducedMotionDescription": "מזער אנימציות ומעברים",
+    "highContrast": "מצב ניגודיות גבוהה",
+    "highContrastDescription": "הגבר ניגודיות לנראות טובה יותר",
+    "textSize": "גודל טקסט",
+    "textSizeOptions": {
+      "small": "קטן",
+      "medium": "בינוני",
+      "large": "גדול"
+    },
+    "keyboardShortcuts": "קיצורי מקלדת",
+    "keyboardShortcutsDescription": "צפה והתאם אישית קיצורי מקלדת",
+    "success": "הגדרות הנגישות עודכנו!"
+  },
+  "account": {
+    "title": "חשבון",
+    "changePassword": "שנה סיסמה",
+    "deleteAccount": "מחק חשבון",
+    "deleteAccountWarning": "לא ניתן לבטל פעולה זו",
+    "signOut": "התנתק",
+    "signOutAll": "התנתק מכל המכשירים"
+  },
+  "changePassword": {
+    "title": "שנה סיסמה",
+    "currentPassword": "סיסמה נוכחית",
+    "newPassword": "סיסמה חדשה",
+    "confirmPassword": "אשר סיסמה חדשה",
+    "button": "שנה סיסמה",
+    "success": "הסיסמה שונתה בהצלחה!",
+    "error": "שינוי הסיסמה נכשל"
+  },
+  "deleteAccount": {
+    "title": "למחוק חשבון?",
+    "message": "האם אתה בטוח שברצונך למחוק את החשבון שלך? כל הקליפים והנתונים שלך יימחקו לצמיתות. לא ניתן לבטל פעולה זו.",
+    "confirm": "הקלד 'DELETE' לאישור",
+    "button": "מחק את החשבון שלי",
+    "success": "החשבון נמחק בהצלחה",
+    "error": "מחיקת החשבון נכשלה"
+  }
+}

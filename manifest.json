@@ -1,0 +1,45 @@
+{
+  "name": "ClippYT - Clip & Share Videos",
+  "short_name": "ClippYT",
+  "description": "Clip and share videos from YouTube, Vimeo, and Dailymotion",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#DC2626",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["entertainment", "video", "social"],
+  "shortcuts": [
+    {
+      "name": "Create Clip",
+      "short_name": "New Clip",
+      "description": "Create a new video clip",
+      "url": "/?source=shortcut",
+      "icons": [{ "src": "/logo.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    }
+  ]
+}

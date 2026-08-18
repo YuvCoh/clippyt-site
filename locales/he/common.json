@@ -1,0 +1,146 @@
+{
+  "app": {
+    "name": "קליפ-טיוב",
+    "tagline": "חתוך ושתף סרטונים",
+    "description": "צור ושתף קליפים מיוטיוב, ווימיאו ודיילימושן"
+  },
+  "platforms": {
+    "youtube": "יוטיוב",
+    "vimeo": "ווימיאו",
+    "dailymotion": "דיילימושן",
+    "all": "כל הפלטפורמות"
+  },
+  "nav": {
+    "home": "בית",
+    "browse": "עיון",
+    "console": "הקליפים שלי",
+    "clipConsole": "הקליפים שלי",
+    "settings": "הגדרות",
+    "admin": "ניהול",
+    "auth": "התחברות",
+    "signOut": "התנתקות",
+    "profile": "פרופיל"
+  },
+  "actions": {
+    "create": "צור",
+    "edit": "ערוך",
+    "delete": "מחק",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "close": "סגור",
+    "back": "חזרה",
+    "next": "הבא",
+    "submit": "שלח",
+    "search": "חיפוש",
+    "filter": "סינון",
+    "sort": "מיון",
+    "share": "שיתוף",
+    "copy": "העתק",
+    "download": "הורד",
+    "upload": "העלה",
+    "refresh": "רענן",
+    "retry": "נסה שוב",
+    "undo": "בטל",
+    "redo": "בצע שוב",
+    "viewAll": "הצג הכל",
+    "learnMore": "למד עוד"
+  },
+  "common": {
+    "loading": "טוען...",
+    "saving": "שומר...",
+    "deleting": "מוחק...",
+    "processing": "מעבד...",
+    "success": "הצלחה!",
+    "error": "שגיאה",
+    "warning": "אזהרה",
+    "info": "מידע",
+    "confirm": "אישור",
+    "yes": "כן",
+    "no": "לא",
+    "ok": "אוקיי",
+    "optional": "אופציונלי",
+    "required": "חובה",
+    "none": "אין",
+    "all": "הכל",
+    "or": "או",
+    "and": "ו",
+    "signIn": "התחברות"
+  },
+  "empty": {
+    "noResults": "לא נמצאו תוצאות",
+    "noData": "אין מידע זמין",
+    "tryAgain": "אנא נסה שוב",
+    "noClips": "לא נמצאו קליפים",
+    "noPlaylists": "לא נמצאו רשימות השמעה",
+    "noUsers": "לא נמצאו משתמשים",
+    "nothingHere": "אין כאן כלום עדיין.",
+    "noDescription": "אין תיאור"
+  },
+  "offline": {
+    "title": "אתה במצב לא מקוון",
+    "message": "אנא בדוק את חיבור האינטרנט שלך",
+    "retry": "נסה להתחבר שוב"
+  },
+  "success": {
+    "clipCreated": "הקליפ נשמר!",
+    "clipUpdated": "הקליפ עודכן!",
+    "clipDeleted": "הקליפ נמחק בהצלחה!",
+    "playlistCreated": "רשימת השמעה נוצרה!",
+    "playlistUpdated": "רשימת השמעה עודכנה!",
+    "playlistDeleted": "רשימת השמעה נמחקה.",
+    "playlistSaved": "רשימת ההשמעה נשמרה בהצלחה",
+    "linkCopied": "הקישור הועתק!",
+    "clipUrlCopied": "כתובת הקליפ הועתקה!",
+    "settingsSaved": "ההגדרות נשמרו בבטחה."
+  },
+  "a11y": {
+    "skipToMain": "דלג לתוכן הראשי",
+    "skipToNav": "דלג לניווט",
+    "openMenu": "פתח תפריט",
+    "closeMenu": "סגור תפריט",
+    "closeModal": "סגור חלון",
+    "logoAlt": "לוגו קליפ-טיוב",
+    "userAvatar": "התמונה שלך",
+    "thumbnail": "תצוגה מקדימה של הסרטון",
+    "imageAlt": "תמונה",
+    "emptyAlt": ""
+  },
+  "time": {
+    "seconds": "שניות",
+    "minutes": "דקות",
+    "hours": "שעות",
+    "days": "ימים",
+    "weeks": "שבועות",
+    "months": "חודשים",
+    "years": "שנים",
+    "ago": "לפני",
+    "justNow": "עכשיו",
+    "today": "היום",
+    "yesterday": "אתמול",
+    "tomorrow": "מחר"
+  },
+  "validation": {
+    "required": "שדה זה הוא חובה",
+    "email": "אנא הזן כתובת אימייל תקינה",
+    "url": "אנא הזן כתובת URL תקינה",
+    "min": "לפחות {{count}} תווים",
+    "max": "עד {{count}} תווים",
+    "minValue": "הערך המינימלי הוא {{value}}",
+    "maxValue": "הערך המקסימלי הוא {{value}}",
+    "numeric": "אנא הזן מספר תקין",
+    "match": "השדות חייבים להתאים"
+  },
+  "pagination": {
+    "previous": "הקודם",
+    "next": "הבא",
+    "page": "עמוד",
+    "of": "מתוך",
+    "showing": "מציג",
+    "to": "עד",
+    "results": "תוצאות"
+  },
+  "clipboard": {
+    "copied": "הועתק ללוח!",
+    "copyFailed": "ההעתקה נכשלה"
+  }
+}

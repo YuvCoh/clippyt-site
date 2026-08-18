@@ -1,0 +1,103 @@
+{
+  "title": "Settings",
+  "subtitle": "Manage your account and preferences",
+  "sections": {
+    "profile": "Profile",
+    "preferences": "Preferences",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "accessibility": "Accessibility",
+    "account": "Account"
+  },
+  "profile": {
+    "title": "Profile Information",
+    "displayName": "Display Name",
+    "email": "Email",
+    "avatar": "Avatar",
+    "bio": "Bio",
+    "website": "Website",
+    "save": "Save Changes",
+    "success": "Profile updated successfully!",
+    "error": "Failed to update profile"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "themeOptions": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "defaultPrivacy": "Default Clip Privacy",
+    "autoplay": "Autoplay Videos",
+    "success": "Preferences updated!"
+  },
+  "notifications": {
+    "title": "Notification Preferences",
+    "email": "Email Notifications",
+    "push": "Push Notifications",
+    "types": {
+      "comments": "Comments on my clips",
+      "likes": "Likes on my clips",
+      "shares": "Someone shared my clip",
+      "playlists": "Added to playlist",
+      "featured": "Clip featured",
+      "updates": "Product updates"
+    },
+    "success": "Notification preferences updated!"
+  },
+  "privacy": {
+    "title": "Privacy Settings",
+    "profileVisibility": "Profile Visibility",
+    "visibilityOptions": {
+      "public": "Public",
+      "private": "Private"
+    },
+    "showEmail": "Show email on profile",
+    "allowComments": "Allow comments on clips",
+    "allowSharing": "Allow sharing of clips",
+    "success": "Privacy settings updated!"
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "reducedMotion": "Reduce Motion",
+    "reducedMotionDescription": "Minimize animations and transitions",
+    "highContrast": "High Contrast Mode",
+    "highContrastDescription": "Increase contrast for better visibility",
+    "textSize": "Text Size",
+    "textSizeOptions": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "keyboardShortcuts": "Keyboard Shortcuts",
+    "keyboardShortcutsDescription": "View and customize keyboard shortcuts",
+    "success": "Accessibility settings updated!"
+  },
+  "account": {
+    "title": "Account",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account",
+    "deleteAccountWarning": "This action cannot be undone",
+    "signOut": "Sign Out",
+    "signOutAll": "Sign Out of All Devices"
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "button": "Change Password",
+    "success": "Password changed successfully!",
+    "error": "Failed to change password"
+  },
+  "deleteAccount": {
+    "title": "Delete Account?",
+    "message": "Are you sure you want to delete your account? All your clips and data will be permanently deleted. This action cannot be undone.",
+    "confirm": "Type 'DELETE' to confirm",
+    "button": "Delete My Account",
+    "success": "Account deleted successfully",
+    "error": "Failed to delete account"
+  }
+}

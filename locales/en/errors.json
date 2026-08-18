@@ -1,0 +1,79 @@
+{
+  "notFound": {
+    "title": "404 vibes — not here.",
+    "message": "The page you're looking for doesn't exist",
+    "button": "Go Home"
+  },
+  "serverError": {
+    "title": "Something broke. Try again.",
+    "message": "We're experiencing technical difficulties. Please try again later.",
+    "button": "Refresh Page"
+  },
+  "unauthorized": {
+    "title": "You don't belong here.",
+    "message": "You don't have permission to access this page",
+    "button": "Go Home"
+  },
+  "forbidden": {
+    "title": "No entry",
+    "message": "Access to this resource is forbidden"
+  },
+  "network": {
+    "title": "Network hiccup. Check your connection.",
+    "message": "Unable to connect to the server. Please check your internet connection.",
+    "button": "Retry"
+  },
+  "timeout": {
+    "title": "Request Timeout",
+    "message": "The request took too long to complete. Please try again.",
+    "button": "Retry"
+  },
+  "validation": {
+    "invalidUrl": "That doesn't look like a valid video URL.",
+    "notAUrl": "That's a search, not a link.\n1. Find the video\n2. Copy its URL",
+    "searchQueryOrTitle": "This looks like a search query or video title, not a URL.\n1. Search for the video\n2. Copy the URL from the browser's address bar",
+    "typoInDomain": "Check the URL spelling.",
+    "otherPlatformNotSupported": "This platform is not supported yet.",
+    "invalidTimeRange": "End time must be after start time",
+    "titleRequired": "Clip title is required",
+    "titleTooLong": "Title must be less than 100 characters",
+    "descriptionTooLong": "Description must be less than 500 characters",
+    "emailInvalid": "Please enter a valid email address",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordsDoNotMatch": "Passwords do not match"
+  },
+  "clip": {
+    "loadFailed": "Load failed. Stuck buffering.",
+    "saveFailed": "Couldn't save. Try again.",
+    "deleteFailed": "Delete failed. Still hanging around.",
+    "notFound": "That clip ghosted.",
+    "invalidVideo": "Invalid or unsupported video URL"
+  },
+  "playlist": {
+    "loadFailed": "Failed to load playlist",
+    "saveFailed": "Failed to save playlist",
+    "deleteFailed": "Failed to delete playlist",
+    "notFound": "Playlist vanished.",
+    "addClipFailed": "Failed to add clip to playlist"
+  },
+  "auth": {
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "invalidCredentials": "Invalid email or password",
+    "emailInUse": "Email is already in use",
+    "weakPassword": "Password is too weak",
+    "tooManyAttempts": "Too many failed attempts. Please try again later."
+  },
+  "upload": {
+    "fileTooLarge": "File is too large. Maximum size is {{maxSize}}",
+    "unsupportedFormat": "Unsupported file format",
+    "uploadFailed": "Upload failed. Please try again."
+  },
+  "general": {
+    "unknownError": "An unexpected error occurred",
+    "generic": "Something broke. Try again.",
+    "tryAgain": "Please try again",
+    "contactSupport": "If the problem persists, please contact support",
+    "videoPlayerError": "Video player error. Please refresh the page.",
+    "adminSectionError": "Admin section error. Please refresh or try another tab."
+  }
+}

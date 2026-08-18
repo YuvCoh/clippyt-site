@@ -1,0 +1,14 @@
+{
+  "required": "{{field}} הוא שדה חובה",
+  "email": "אנא הזן כתובת אימייל תקינה",
+  "url": "אנא הזן כתובת URL תקינה",
+  "min": "{{field}} חייב להיות לפחות {{count}} תווים",
+  "max": "{{field}} לא יכול להיות יותר מ-{{count}} תווים",
+  "minValue": "{{field}} חייב להיות לפחות {{value}}",
+  "maxValue": "{{field}} לא יכול להיות יותר מ-{{value}}",
+  "numeric": "{{field}} חייב להיות מספר",
+  "alphanumeric": "{{field}} חייב להכיל רק אותיות ומספרים",
+  "match": "{{field}} חייב להתאים ל-{{otherField}}",
+  "unique": "{{field}} כבר בשימוש",
+  "pattern": "ל-{{field}} יש פורמט לא תקין"
+}

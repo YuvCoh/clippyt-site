@@ -1,0 +1,103 @@
+{
+  "title": "الإعدادات",
+  "subtitle": "إدارة حسابك وتفضيلاتك",
+  "sections": {
+    "profile": "الملف الشخصي",
+    "preferences": "التفضيلات",
+    "notifications": "الإشعارات",
+    "privacy": "الخصوصية",
+    "accessibility": "إمكانية الوصول",
+    "account": "الحساب"
+  },
+  "profile": {
+    "title": "معلومات الملف الشخصي",
+    "displayName": "اسم العرض",
+    "email": "البريد الإلكتروني",
+    "avatar": "الصورة الرمزية",
+    "bio": "النبذة",
+    "website": "الموقع الإلكتروني",
+    "save": "حفظ التغييرات",
+    "success": "تم تحديث الملف الشخصي بنجاح!",
+    "error": "فشل تحديث الملف الشخصي"
+  },
+  "preferences": {
+    "title": "التفضيلات",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "themeOptions": {
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "النظام"
+    },
+    "defaultPrivacy": "خصوصية المقطع الافتراضية",
+    "autoplay": "التشغيل التلقائي للفيديوهات",
+    "success": "تم تحديث التفضيلات!"
+  },
+  "notifications": {
+    "title": "تفضيلات الإشعارات",
+    "email": "إشعارات البريد الإلكتروني",
+    "push": "الإشعارات الفورية",
+    "types": {
+      "comments": "التعليقات على مقاطعي",
+      "likes": "الإعجابات على مقاطعي",
+      "shares": "شخص ما شارك مقطعي",
+      "playlists": "تمت الإضافة لقائمة تشغيل",
+      "featured": "مقطع مميز",
+      "updates": "تحديثات المنتج"
+    },
+    "success": "تم تحديث تفضيلات الإشعارات!"
+  },
+  "privacy": {
+    "title": "إعدادات الخصوصية",
+    "profileVisibility": "رؤية الملف الشخصي",
+    "visibilityOptions": {
+      "public": "عام",
+      "private": "خاص"
+    },
+    "showEmail": "إظهار البريد الإلكتروني في الملف الشخصي",
+    "allowComments": "السماح بالتعليقات على المقاطع",
+    "allowSharing": "السماح بمشاركة المقاطع",
+    "success": "تم تحديث إعدادات الخصوصية!"
+  },
+  "accessibility": {
+    "title": "إمكانية الوصول",
+    "reducedMotion": "تقليل الحركة",
+    "reducedMotionDescription": "تقليل الرسوم المتحركة والتحولات",
+    "highContrast": "وضع التباين العالي",
+    "highContrastDescription": "زيادة التباين لرؤية أفضل",
+    "textSize": "حجم النص",
+    "textSizeOptions": {
+      "small": "صغير",
+      "medium": "متوسط",
+      "large": "كبير"
+    },
+    "keyboardShortcuts": "اختصارات لوحة المفاتيح",
+    "keyboardShortcutsDescription": "عرض وتخصيص اختصارات لوحة المفاتيح",
+    "success": "تم تحديث إعدادات إمكانية الوصول!"
+  },
+  "account": {
+    "title": "الحساب",
+    "changePassword": "تغيير كلمة المرور",
+    "deleteAccount": "حذف الحساب",
+    "deleteAccountWarning": "لا يمكن التراجع عن هذا الإجراء",
+    "signOut": "تسجيل الخروج",
+    "signOutAll": "تسجيل الخروج من جميع الأجهزة"
+  },
+  "changePassword": {
+    "title": "تغيير كلمة المرور",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور الجديدة",
+    "button": "تغيير كلمة المرور",
+    "success": "تم تغيير كلمة المرور بنجاح!",
+    "error": "فشل تغيير كلمة المرور"
+  },
+  "deleteAccount": {
+    "title": "حذف الحساب؟",
+    "message": "هل أنت متأكد من حذف حسابك؟ سيتم حذف جميع مقاطعك وبياناتك نهائياً. لا يمكن التراجع عن هذا الإجراء.",
+    "confirm": "اكتب 'DELETE' للتأكيد",
+    "button": "احذف حسابي",
+    "success": "تم حذف الحساب بنجاح",
+    "error": "فشل حذف الحساب"
+  }
+}

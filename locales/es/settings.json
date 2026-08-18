@@ -1,0 +1,103 @@
+{
+  "title": "Configuración",
+  "subtitle": "Administra tu cuenta y preferencias",
+  "sections": {
+    "profile": "Perfil",
+    "preferences": "Preferencias",
+    "notifications": "Notificaciones",
+    "privacy": "Privacidad",
+    "accessibility": "Accesibilidad",
+    "account": "Cuenta"
+  },
+  "profile": {
+    "title": "Información del Perfil",
+    "displayName": "Nombre de Usuario",
+    "email": "Correo Electrónico",
+    "avatar": "Avatar",
+    "bio": "Biografía",
+    "website": "Sitio Web",
+    "save": "Guardar Cambios",
+    "success": "¡Perfil actualizado exitosamente!",
+    "error": "Error al actualizar el perfil"
+  },
+  "preferences": {
+    "title": "Preferencias",
+    "language": "Idioma",
+    "theme": "Tema",
+    "themeOptions": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "defaultPrivacy": "Privacidad Predeterminada del Clip",
+    "autoplay": "Reproducción Automática de Videos",
+    "success": "¡Preferencias actualizadas!"
+  },
+  "notifications": {
+    "title": "Preferencias de Notificación",
+    "email": "Notificaciones por Correo",
+    "push": "Notificaciones Push",
+    "types": {
+      "comments": "Comentarios en mis clips",
+      "likes": "Me gusta en mis clips",
+      "shares": "Alguien compartió mi clip",
+      "playlists": "Agregado a lista",
+      "featured": "Clip destacado",
+      "updates": "Actualizaciones del producto"
+    },
+    "success": "¡Preferencias de notificación actualizadas!"
+  },
+  "privacy": {
+    "title": "Configuración de Privacidad",
+    "profileVisibility": "Visibilidad del Perfil",
+    "visibilityOptions": {
+      "public": "Público",
+      "private": "Privado"
+    },
+    "showEmail": "Mostrar correo en el perfil",
+    "allowComments": "Permitir comentarios en clips",
+    "allowSharing": "Permitir compartir clips",
+    "success": "¡Configuración de privacidad actualizada!"
+  },
+  "accessibility": {
+    "title": "Accesibilidad",
+    "reducedMotion": "Reducir Movimiento",
+    "reducedMotionDescription": "Minimizar animaciones y transiciones",
+    "highContrast": "Modo de Alto Contraste",
+    "highContrastDescription": "Aumentar el contraste para mejor visibilidad",
+    "textSize": "Tamaño de Texto",
+    "textSizeOptions": {
+      "small": "Pequeño",
+      "medium": "Mediano",
+      "large": "Grande"
+    },
+    "keyboardShortcuts": "Atajos de Teclado",
+    "keyboardShortcutsDescription": "Ver y personalizar atajos de teclado",
+    "success": "¡Configuración de accesibilidad actualizada!"
+  },
+  "account": {
+    "title": "Cuenta",
+    "changePassword": "Cambiar Contraseña",
+    "deleteAccount": "Eliminar Cuenta",
+    "deleteAccountWarning": "Esta acción no se puede deshacer",
+    "signOut": "Cerrar Sesión",
+    "signOutAll": "Cerrar Sesión en Todos los Dispositivos"
+  },
+  "changePassword": {
+    "title": "Cambiar Contraseña",
+    "currentPassword": "Contraseña Actual",
+    "newPassword": "Nueva Contraseña",
+    "confirmPassword": "Confirmar Nueva Contraseña",
+    "button": "Cambiar Contraseña",
+    "success": "¡Contraseña cambiada exitosamente!",
+    "error": "Error al cambiar la contraseña"
+  },
+  "deleteAccount": {
+    "title": "¿Eliminar Cuenta?",
+    "message": "¿Estás seguro de que quieres eliminar tu cuenta? Todos tus clips y datos serán eliminados permanentemente. Esta acción no se puede deshacer.",
+    "confirm": "Escribe 'DELETE' para confirmar",
+    "button": "Eliminar Mi Cuenta",
+    "success": "Cuenta eliminada exitosamente",
+    "error": "Error al eliminar la cuenta"
+  }
+}

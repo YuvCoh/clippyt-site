@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /console
+Disallow: /settings
+
+Sitemap: https://clippyt.com/sitemap.xml

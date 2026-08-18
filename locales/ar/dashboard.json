@@ -1,0 +1,172 @@
+{
+  "title": "مقاطعي",
+  "subtitle": "إدارة مقاطع الفيديو وقوائم التشغيل",
+  "mainScreen": {
+    "heroTitle": "شارك اللحظة",
+    "heroSubtitle": "أنشئ مقاطع مخصصة دائمة",
+    "howItWorks": {
+      "step1": "الصق",
+      "step2": "قص",
+      "step3": "شارك"
+    },
+    "urlPlaceholder": "ضع رابط فيديو (يوتيوب، فيميو، أو ديلي موشن)...",
+    "emptyUrlError": "الصق رابط فيديو من يوتيوب أو فيميو أو ديلي موشن للبدء.",
+    "tryLoadVideo": "تحميل",
+    "loadingVideo": "جاري تحميل الفيديو...",
+    "playPreview": "تشغيل المعاينة",
+    "pausePreview": "إيقاف المعاينة مؤقتاً",
+    "pause": "إيقاف",
+    "advancedSettings": "إعدادات متقدمة",
+    "clipIt": "اقتصها",
+    "clipItButton": "اقتصها",
+    "creatingClip": "جاري الإنشاء",
+    "untitledClip": "مقطع بدون عنوان",
+    "failedToCreate": "عذراً، فشل الإنشاء. حاول مرة أخرى.",
+    "startTimeLabel": "وقت البداية",
+    "endTimeLabel": "وقت النهاية",
+    "startTimePlaceholder": "أدخل وقت البداية بصيغة MM:SS",
+    "endTimePlaceholder": "أدخل وقت النهاية بصيغة MM:SS",
+    "updating": "جاري التحديث...",
+    "updateClip": "تحديث المقطع",
+    "clipTitleLabel": "عنوان المقطع",
+    "clipTitleRequired": " *",
+    "clipTitlePlaceholder": "أدخل عنواناً للمقطع",
+    "descriptionLabel": "الوصف (اختياري)",
+    "descriptionPlaceholder": "أضف وصفاً للمقطع",
+    "settingsLabel": "الإعدادات السريعة",
+    "videoMuted": "سيتم كتم صوت الفيديو",
+    "videoUnmuted": "سيتم تشغيل صوت الفيديو",
+    "unmuteVideo": "إلغاء كتم الصوت",
+    "muteVideo": "كتم صوت الفيديو",
+    "controlsEnabled": "تم تفعيل أدوات التحكم",
+    "controlsDisabled": "تم تعطيل أدوات التحكم",
+    "hideControls": "إخفاء أدوات التحكم",
+    "showControls": "إظهار أدوات التحكم",
+    "autoplayEnabled": "تم تفعيل التشغيل التلقائي",
+    "autoplayDisabled": "تم تعطيل التشغيل التلقائي",
+    "disableAutoplay": "تعطيل التشغيل التلقائي",
+    "enableAutoplay": "تفعيل التشغيل التلقائي",
+    "excludedFromSearch": "تم الاستبعاد من البحث",
+    "includedInSearch": "تم التضمين في البحث",
+    "includeInSearch": "تضمين في البحث",
+    "excludeFromSearch": "استبعاد من البحث",
+    "clipSetToPrivate": "تم تعيين المقطع كخاص",
+    "clipSetToPublic": "تم تعيين المقطع كعام",
+    "makePublic": "جعله عاماً",
+    "makePrivate": "جعله خاصاً",
+    "keyboardShortcuts": "اختصارات لوحة المفاتيح",
+    "close": "إغلاق",
+    "closeKeyboardShortcuts": "إغلاق اختصارات لوحة المفاتيح"
+  },
+  "signupPrompt": {
+    "title": "انضم مجاناً",
+    "intro": "افتح قدرات القص الخارقة:",
+    "benefits": {
+      "track": "تتبع مقاطعك",
+      "edit": "تعديل المقاطع في أي وقت",
+      "counter": "عداد مشاهدة خاص",
+      "descriptions": "أوصاف مخصصة",
+      "drafts": "حفظ العمل الجاري",
+      "playlists": "إنشاء قوائم تشغيل خاصة"
+    },
+    "anonymousNote": "ملاحظة: المقاطع المجهولة التي تزيد عن سنة ستختفي.",
+    "changeYourMind": "لا ضغط، يمكنك الإلغاء في أي وقت.",
+    "signUpButton": "سجلني",
+    "skipButton": "ربما لاحقاً",
+    "doNotAskButton": "توقف عن السؤال"
+  },
+  "tabs": {
+    "clips": "المقاطع",
+    "playlists": "قوائم التشغيل"
+  },
+  "clips": {
+    "title": "مقاطعك",
+    "create": "إنشاء مقطع",
+    "edit": "تعديل المقطع",
+    "delete": "حذف المقطع",
+    "share": "مشاركة المقطع",
+    "empty": "لا توجد مقاطع بعد",
+    "emptyDescription": "أنشئ مقطع الفيديو الأول للبدء",
+    "search": "بحث في المقاطع...",
+    "sortBy": "ترتيب حسب",
+    "sortOptions": {
+      "newest": "الأحدث أولاً",
+      "oldest": "الأقدم أولاً",
+      "mostViewed": "الأكثر مشاهدة",
+      "title": "العنوان (أ-ي)"
+    },
+    "stats": {
+      "views": "{{count}} مشاهدة",
+      "views_other": "{{count}} مشاهدة",
+      "duration": "المدة: {{duration}}",
+      "platform": "المنصة: {{platform}}"
+    }
+  },
+  "playlists": {
+    "title": "قوائم التشغيل",
+    "create": "إنشاء قائمة تشغيل",
+    "edit": "تعديل قائمة التشغيل",
+    "delete": "حذف قائمة التشغيل",
+    "share": "مشاركة قائمة التشغيل",
+    "empty": "لا توجد قوائم تشغيل بعد",
+    "emptyDescription": "أنشئ قائمة تشغيل لتنظيم مقاطعك",
+    "search": "بحث في قوائم التشغيل...",
+    "stats": {
+      "clips": "{{count}} مقطع",
+      "clips_other": "{{count}} مقطع"
+    }
+  },
+  "createClip": {
+    "title": "إنشاء مقطع جديد",
+    "videoUrl": "رابط الفيديو",
+    "videoUrlPlaceholder": "الصق رابط يوتيوب أو فيميو أو ديلي موشن",
+    "startTime": "وقت البداية",
+    "endTime": "وقت النهاية",
+    "clipTitle": "عنوان المقطع",
+    "description": "الوصف (اختياري)",
+    "tags": "الوسوم",
+    "privacy": "الخصوصية",
+    "privacyOptions": {
+      "public": "عام",
+      "private": "خاص"
+    },
+    "settings": "إعدادات الفيديو",
+    "autoplay": "التشغيل التلقائي",
+    "muted": "كتم الصوت",
+    "controls": "إظهار أدوات التحكم",
+    "relatedVideos": "إظهار مقاطع ذات صلة",
+    "button": "إنشاء المقطع",
+    "success": "تم إنشاء المقطع بنجاح!",
+    "error": "فشل إنشاء المقطع"
+  },
+  "editClip": {
+    "title": "تعديل المقطع",
+    "button": "حفظ التغييرات",
+    "success": "تم تحديث المقطع بنجاح!",
+    "error": "فشل تحديث المقطع"
+  },
+  "deleteClip": {
+    "title": "حذف المقطع؟",
+    "message": "هل أنت متأكد من حذف هذا المقطع؟ لا يمكن التراجع عن هذا الإجراء.",
+    "button": "حذف",
+    "success": "تم حذف المقطع بنجاح!",
+    "error": "فشل حذف المقطع"
+  },
+  "createPlaylist": {
+    "title": "إنشاء قائمة تشغيل",
+    "name": "اسم قائمة التشغيل",
+    "description": "الوصف (اختياري)",
+    "privacy": "الخصوصية",
+    "button": "إنشاء قائمة التشغيل",
+    "success": "تم إنشاء قائمة التشغيل بنجاح!",
+    "error": "فشل إنشاء قائمة التشغيل"
+  },
+  "addToPlaylist": {
+    "title": "إضافة إلى قائمة التشغيل",
+    "selectPlaylist": "اختر قائمة تشغيل",
+    "createNew": "إنشاء قائمة تشغيل جديدة",
+    "button": "إضافة",
+    "success": "تمت الإضافة إلى قائمة التشغيل!",
+    "error": "فشلت الإضافة إلى قائمة التشغيل"
+  }
+}

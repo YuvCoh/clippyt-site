@@ -1,0 +1,14 @@
+{
+  "required": "{{field}} is required",
+  "email": "Please enter a valid email address",
+  "url": "Please enter a valid URL",
+  "min": "{{field}} must be at least {{count}} characters",
+  "max": "{{field}} must be no more than {{count}} characters",
+  "minValue": "{{field}} must be at least {{value}}",
+  "maxValue": "{{field}} must be no more than {{value}}",
+  "numeric": "{{field}} must be a number",
+  "alphanumeric": "{{field}} must contain only letters and numbers",
+  "match": "{{field}} must match {{otherField}}",
+  "unique": "{{field}} is already taken",
+  "pattern": "{{field}} has an invalid format"
+}
