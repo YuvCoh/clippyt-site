@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "ClippYT",
+    "tagline": "Clip & Share Videos",
+    "description": "Create and share video clips from YouTube, Vimeo, and Dailymotion"
+  },
+  "platforms": {
+    "youtube": "YouTube",
+    "vimeo": "Vimeo",
+    "dailymotion": "Dailymotion",
+    "all": "All Platforms"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "console": "My Clips",
+    "clipConsole": "My Clips",
+    "settings": "Tweaks",
+    "admin": "Admin",
+    "auth": "Sign In",
+    "signOut": "Sign Out",
+    "profile": "Profile"
+  },
+  "actions": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "share": "Share",
+    "copy": "Copy",
+    "download": "Download",
+    "upload": "Upload",
+    "refresh": "Refresh",
+    "retry": "Retry",
+    "undo": "Undo",
+    "redo": "Redo",
+    "viewAll": "View All",
+    "learnMore": "Learn More"
+  },
+  "common": {
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "processing": "Processing...",
+    "success": "Success!",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "optional": "Optional",
+    "required": "Required",
+    "none": "None",
+    "all": "All",
+    "or": "or",
+    "and": "and",
+    "signIn": "Sign In"
+  },
+  "empty": {
+    "noResults": "No results found",
+    "noData": "No data available",
+    "tryAgain": "Please try again",
+    "noClips": "No clips found",
+    "noPlaylists": "No playlists found",
+    "noUsers": "No users found",
+    "nothingHere": "Nothing here yet.",
+    "noDescription": "No description"
+  },
+  "offline": {
+    "title": "You're offline",
+    "message": "Please check your internet connection",
+    "retry": "Retry connection"
+  },
+  "success": {
+    "clipCreated": "Clip saved!",
+    "clipUpdated": "Clip polished!",
+    "clipDeleted": "Clip deleted successfully!",
+    "playlistCreated": "Mixtape created!",
+    "playlistUpdated": "Mixtape updated!",
+    "playlistDeleted": "Mixtape trashed.",
+    "playlistSaved": "Playlist saved successfully",
+    "linkCopied": "Link copied. Go brag!",
+    "clipUrlCopied": "Clip URL copied to clipboard!",
+    "settingsSaved": "Settings tucked away safely."
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToNav": "Skip to nav",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "closeModal": "Close modal",
+    "logoAlt": "ClippYT logo",
+    "goToHome": "Go to home",
+    "userAvatar": "Your face here",
+    "thumbnail": "Video preview",
+    "imageAlt": "Image",
+    "emptyAlt": ""
+  },
+  "time": {
+    "seconds": "seconds",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "ago": "ago",
+    "justNow": "just now",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email",
+    "url": "Please enter a valid URL",
+    "min": "Minimum {{count}} characters",
+    "max": "Maximum {{count}} characters",
+    "minValue": "Minimum value is {{value}}",
+    "maxValue": "Maximum value is {{value}}",
+    "numeric": "Please enter a valid number",
+    "match": "Fields must match"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "to": "to",
+    "results": "results"
+  },
+  "clipboard": {
+    "copied": "Copied to clipboard!",
+    "copyFailed": "Failed to copy"
+  }
+}

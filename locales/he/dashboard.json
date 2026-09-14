@@ -1,0 +1,172 @@
+{
+  "title": "הקליפים שלי",
+  "subtitle": "נהל את קליפי הווידאו ורשימות ההשמעה שלך",
+  "mainScreen": {
+    "heroTitle": "שתף את הרגע",
+    "heroSubtitle": "צור קליפים מותאמים אישית לצמיתות",
+    "howItWorks": {
+      "step1": "הדבק",
+      "step2": "חתוך",
+      "step3": "שתף"
+    },
+    "urlPlaceholder": "הדבק קישור לסרטון (יוטיוב, ווימיאו או דיילימושן)...",
+    "emptyUrlError": "הדבק כתובת URL של סרטון מיוטיוב, ווימיאו או דיילימושן כדי להתחיל.",
+    "tryLoadVideo": "טען",
+    "loadingVideo": "טוען סרטון...",
+    "playPreview": "הפעל תצוגה מקדימה",
+    "pausePreview": "השהה תצוגה מקדימה",
+    "pause": "השהה",
+    "advancedSettings": "הגדרות מתקדמות",
+    "clipIt": "חתוך",
+    "clipItButton": "חתוך",
+    "creatingClip": "יוצר קליפ",
+    "untitledClip": "קליפ ללא שם",
+    "failedToCreate": "אופס, לא הצלחנו ליצור. נסה שוב.",
+    "startTimeLabel": "זמן התחלה",
+    "endTimeLabel": "זמן סיום",
+    "startTimePlaceholder": "הזן זמן התחלה בפורמט MM:SS",
+    "endTimePlaceholder": "הזן זמן סיום בפורמט MM:SS",
+    "updating": "מעדכן...",
+    "updateClip": "עדכן קליפ",
+    "clipTitleLabel": "כותרת הקליפ",
+    "clipTitleRequired": " *",
+    "clipTitlePlaceholder": "הזן כותרת לקליפ",
+    "descriptionLabel": "תיאור (אופציונלי)",
+    "descriptionPlaceholder": "הוסף תיאור לקליפ",
+    "settingsLabel": "הגדרות מהירות",
+    "videoMuted": "הסרטון יהיה מושתק",
+    "videoUnmuted": "הסרטון יושמע",
+    "unmuteVideo": "בטל השתקה",
+    "muteVideo": "השתק סרטון",
+    "controlsEnabled": "הפקדים מופעלים",
+    "controlsDisabled": "הפקדים מכובים",
+    "hideControls": "הסתר פקדים",
+    "showControls": "הצג פקדים",
+    "autoplayEnabled": "הפעלה אוטומטית מופעלת",
+    "autoplayDisabled": "הפעלה אוטומטית מכובה",
+    "disableAutoplay": "כבה הפעלה אוטומטית",
+    "enableAutoplay": "הפעל הפעלה אוטומטית",
+    "excludedFromSearch": "לא נכלל בחיפוש",
+    "includedInSearch": "כלול בחיפוש",
+    "includeInSearch": "כלול בחיפוש",
+    "excludeFromSearch": "אל תכלול בחיפוש",
+    "clipSetToPrivate": "הקליפ הוגדר כפרטי",
+    "clipSetToPublic": "הקליפ הוגדר כציבורי",
+    "makePublic": "הפוך לציבורי",
+    "makePrivate": "הפוך לפרטי",
+    "keyboardShortcuts": "קיצורי מקלדת",
+    "close": "סגור",
+    "closeKeyboardShortcuts": "סגור קיצורי מקלדת"
+  },
+  "signupPrompt": {
+    "title": "הצטרף בחינם",
+    "intro": "פתח את כוחות העל לחיתוך:",
+    "benefits": {
+      "track": "עקוב אחר הקליפים שלך",
+      "edit": "ערוך קליפים בכל עת",
+      "counter": "מונה צפיות פרטי",
+      "descriptions": "תיאורים מותאמים אישית",
+      "drafts": "שמור עבודה בתהליך",
+      "playlists": "צור רשימות השמעה משלך"
+    },
+    "anonymousNote": "הערה: קליפים אנונימיים בני מעל שנה יימחקו.",
+    "changeYourMind": "אין לחץ, אתה יכול לבטל בכל עת.",
+    "signUpButton": "רשום אותי",
+    "skipButton": "אולי מאוחר יותר",
+    "doNotAskButton": "הפסק לשאול"
+  },
+  "tabs": {
+    "clips": "קליפים",
+    "playlists": "רשימות השמעה"
+  },
+  "clips": {
+    "title": "הקליפים שלך",
+    "create": "צור קליפ",
+    "edit": "ערוך קליפ",
+    "delete": "מחק קליפ",
+    "share": "שתף קליפ",
+    "empty": "עדיין אין קליפים",
+    "emptyDescription": "צור את קליפ הווידאו הראשון שלך כדי להתחיל",
+    "search": "חפש קליפים...",
+    "sortBy": "מיין לפי",
+    "sortOptions": {
+      "newest": "החדשים ביותר קודם",
+      "oldest": "הישנים ביותר קודם",
+      "mostViewed": "הנצפים ביותר",
+      "title": "כותרת (א-ת)"
+    },
+    "stats": {
+      "views": "{{count}} צפייה",
+      "views_other": "{{count}} צפיות",
+      "duration": "משך: {{duration}}",
+      "platform": "פלטפורמה: {{platform}}"
+    }
+  },
+  "playlists": {
+    "title": "רשימות ההשמעה שלך",
+    "create": "צור רשימת השמעה",
+    "edit": "ערוך רשימת השמעה",
+    "delete": "מחק רשימת השמעה",
+    "share": "שתף רשימת השמעה",
+    "empty": "עדיין אין רשימות השמעה",
+    "emptyDescription": "צור רשימת השמעה כדי לארגן את הקליפים שלך",
+    "search": "חפש רשימות השמעה...",
+    "stats": {
+      "clips": "{{count}} קליפ",
+      "clips_other": "{{count}} קליפים"
+    }
+  },
+  "createClip": {
+    "title": "צור קליפ חדש",
+    "videoUrl": "כתובת הסרטון",
+    "videoUrlPlaceholder": "הדבק כתובת URL של יוטיוב, ווימיאו או דיילימושן",
+    "startTime": "זמן התחלה",
+    "endTime": "זמן סיום",
+    "clipTitle": "כותרת הקליפ",
+    "description": "תיאור (אופציונלי)",
+    "tags": "תגיות",
+    "privacy": "פרטיות",
+    "privacyOptions": {
+      "public": "ציבורי",
+      "private": "פרטי"
+    },
+    "settings": "הגדרות סרטון",
+    "autoplay": "הפעלה אוטומטית",
+    "muted": "מושתק",
+    "controls": "הצג פקדים",
+    "relatedVideos": "הצג סרטונים קשורים",
+    "button": "צור קליפ",
+    "success": "הקליפ נוצר בהצלחה!",
+    "error": "יצירת הקליפ נכשלה"
+  },
+  "editClip": {
+    "title": "ערוך קליפ",
+    "button": "שמור שינויים",
+    "success": "הקליפ עודכן בהצלחה!",
+    "error": "עדכון הקליפ נכשל"
+  },
+  "deleteClip": {
+    "title": "למחוק קליפ?",
+    "message": "האם אתה בטוח שברצונך למחוק קליפ זה? לא ניתן לבטל פעולה זו.",
+    "button": "מחק",
+    "success": "הקליפ נמחק בהצלחה!",
+    "error": "מחיקת הקליפ נכשלה"
+  },
+  "createPlaylist": {
+    "title": "צור רשימת השמעה",
+    "name": "שם רשימת ההשמעה",
+    "description": "תיאור (אופציונלי)",
+    "privacy": "פרטיות",
+    "button": "צור רשימת השמעה",
+    "success": "רשימת ההשמעה נוצרה בהצלחה!",
+    "error": "יצירת רשימת ההשמעה נכשלה"
+  },
+  "addToPlaylist": {
+    "title": "הוסף לרשימת השמעה",
+    "selectPlaylist": "בחר רשימת השמעה",
+    "createNew": "צור רשימת השמעה חדשה",
+    "button": "הוסף",
+    "success": "נוסף לרשימת ההשמעה!",
+    "error": "ההוספה לרשימת ההשמעה נכשלה"
+  }
+}

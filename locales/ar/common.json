@@ -1,0 +1,146 @@
+{
+  "app": {
+    "name": "كليب تيوب",
+    "tagline": "قص ومشاركة الفيديوهات",
+    "description": "أنشئ وشارك مقاطع الفيديو من يوتيوب وفيميو وديلي موشن"
+  },
+  "platforms": {
+    "youtube": "يوتيوب",
+    "vimeo": "فيميو",
+    "dailymotion": "ديلي موشن",
+    "all": "جميع المنصات"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "browse": "تصفح",
+    "console": "مقاطعي",
+    "clipConsole": "مقاطعي",
+    "settings": "الإعدادات",
+    "admin": "الإدارة",
+    "auth": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "profile": "الملف الشخصي"
+  },
+  "actions": {
+    "create": "إنشاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "submit": "إرسال",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "share": "مشاركة",
+    "copy": "نسخ",
+    "download": "تنزيل",
+    "upload": "رفع",
+    "refresh": "تحديث",
+    "retry": "إعادة المحاولة",
+    "undo": "تراجع",
+    "redo": "إعادة",
+    "viewAll": "عرض الكل",
+    "learnMore": "معرفة المزيد"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "saving": "جاري الحفظ...",
+    "deleting": "جاري الحذف...",
+    "processing": "جاري المعالجة...",
+    "success": "نجح!",
+    "error": "خطأ",
+    "warning": "تحذير",
+    "info": "معلومات",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "ok": "موافق",
+    "optional": "اختياري",
+    "required": "مطلوب",
+    "none": "لا يوجد",
+    "all": "الكل",
+    "or": "أو",
+    "and": "و",
+    "signIn": "تسجيل الدخول"
+  },
+  "empty": {
+    "noResults": "لا توجد نتائج",
+    "noData": "لا توجد بيانات متاحة",
+    "tryAgain": "يرجى المحاولة مرة أخرى",
+    "noClips": "لا توجد مقاطع",
+    "noPlaylists": "لا توجد قوائم تشغيل",
+    "noUsers": "لا يوجد مستخدمون",
+    "nothingHere": "لا يوجد شيء هنا بعد.",
+    "noDescription": "لا يوجد وصف"
+  },
+  "offline": {
+    "title": "أنت غير متصل",
+    "message": "يرجى التحقق من اتصالك بالإنترنت",
+    "retry": "إعادة محاولة الاتصال"
+  },
+  "success": {
+    "clipCreated": "تم حفظ المقطع!",
+    "clipUpdated": "تم تحديث المقطع!",
+    "clipDeleted": "تم حذف المقطع بنجاح!",
+    "playlistCreated": "تم إنشاء قائمة التشغيل!",
+    "playlistUpdated": "تم تحديث قائمة التشغيل!",
+    "playlistDeleted": "تم حذف قائمة التشغيل.",
+    "playlistSaved": "تم حفظ قائمة التشغيل بنجاح",
+    "linkCopied": "تم نسخ الرابط!",
+    "clipUrlCopied": "تم نسخ رابط المقطع!",
+    "settingsSaved": "تم حفظ الإعدادات بأمان."
+  },
+  "a11y": {
+    "skipToMain": "الانتقال إلى المحتوى الرئيسي",
+    "skipToNav": "الانتقال إلى القائمة",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "closeModal": "إغلاق النافذة",
+    "logoAlt": "شعار كليب تيوب",
+    "userAvatar": "صورتك الشخصية",
+    "thumbnail": "معاينة الفيديو",
+    "imageAlt": "صورة",
+    "emptyAlt": ""
+  },
+  "time": {
+    "seconds": "ثواني",
+    "minutes": "دقائق",
+    "hours": "ساعات",
+    "days": "أيام",
+    "weeks": "أسابيع",
+    "months": "أشهر",
+    "years": "سنوات",
+    "ago": "منذ",
+    "justNow": "الآن",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "tomorrow": "غداً"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "email": "يرجى إدخال بريد إلكتروني صالح",
+    "url": "يرجى إدخال رابط صالح",
+    "min": "الحد الأدنى {{count}} حرفاً",
+    "max": "الحد الأقصى {{count}} حرفاً",
+    "minValue": "الحد الأدنى للقيمة هو {{value}}",
+    "maxValue": "الحد الأقصى للقيمة هو {{value}}",
+    "numeric": "يرجى إدخال رقم صالح",
+    "match": "يجب أن تتطابق الحقول"
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من",
+    "showing": "عرض",
+    "to": "إلى",
+    "results": "نتائج"
+  },
+  "clipboard": {
+    "copied": "تم النسخ!",
+    "copyFailed": "فشل النسخ"
+  }
+}

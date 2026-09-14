@@ -1,0 +1,14 @@
+{
+  "required": "{{field}} مطلوب",
+  "email": "يرجى إدخال عنوان بريد إلكتروني صالح",
+  "url": "يرجى إدخال رابط URL صالح",
+  "min": "يجب أن يكون {{field}} على الأقل {{count}} أحرف",
+  "max": "يجب ألا يتجاوز {{field}} {{count}} حرفاً",
+  "minValue": "يجب أن يكون {{field}} على الأقل {{value}}",
+  "maxValue": "يجب ألا يتجاوز {{field}} {{value}}",
+  "numeric": "يجب أن يكون {{field}} رقماً",
+  "alphanumeric": "يجب أن يحتوي {{field}} على أحرف وأرقام فقط",
+  "match": "يجب أن يطابق {{field}} {{otherField}}",
+  "unique": "{{field}} مستخدم بالفعل",
+  "pattern": "{{field}} له صيغة غير صالحة"
+}

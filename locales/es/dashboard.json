@@ -1,0 +1,172 @@
+{
+  "title": "Mis Clips",
+  "subtitle": "Administra tus clips de video y listas de reproducción",
+  "mainScreen": {
+    "heroTitle": "Comparte el momento",
+    "heroSubtitle": "Crea clips personalizados permanentes",
+    "howItWorks": {
+      "step1": "Pega",
+      "step2": "Recorta",
+      "step3": "Presume"
+    },
+    "urlPlaceholder": "Suelta un enlace de video (YouTube, Vimeo o Dailymotion)...",
+    "emptyUrlError": "Pega una URL de video de YouTube, Vimeo o Dailymotion para comenzar.",
+    "tryLoadVideo": "Cárgalo",
+    "loadingVideo": "Cargando video...",
+    "playPreview": "Reproducir Vista Previa",
+    "pausePreview": "Pausar la vista previa",
+    "pause": "Pausar",
+    "advancedSettings": "Ajustes",
+    "clipIt": "Recortar",
+    "clipItButton": "Recortar",
+    "creatingClip": "Tijeras trabajando",
+    "untitledClip": "Clip Sin Título",
+    "failedToCreate": "Ups, no se pudo recortar. Intenta de nuevo.",
+    "startTimeLabel": "Tiempo de Inicio",
+    "endTimeLabel": "Tiempo de Fin",
+    "startTimePlaceholder": "Ingrese el tiempo de inicio en formato MM:SS",
+    "endTimePlaceholder": "Ingrese el tiempo de fin en formato MM:SS",
+    "updating": "Actualizando...",
+    "updateClip": "Actualizar Clip",
+    "clipTitleLabel": "Título del Clip",
+    "clipTitleRequired": " *",
+    "clipTitlePlaceholder": "Ingrese un título para su clip",
+    "descriptionLabel": "Descripción (opcional)",
+    "descriptionPlaceholder": "Agregue una descripción para su clip",
+    "settingsLabel": "Configuración Rápida",
+    "videoMuted": "El video será silenciado",
+    "videoUnmuted": "El video tendrá sonido",
+    "unmuteVideo": "Activar sonido",
+    "muteVideo": "Silenciar video",
+    "controlsEnabled": "Controles activados",
+    "controlsDisabled": "Controles desactivados",
+    "hideControls": "Ocultar controles",
+    "showControls": "Mostrar controles",
+    "autoplayEnabled": "Reproducción automática activada",
+    "autoplayDisabled": "Reproducción automática desactivada",
+    "disableAutoplay": "Desactivar reproducción automática",
+    "enableAutoplay": "Activar reproducción automática",
+    "excludedFromSearch": "Excluido de búsqueda",
+    "includedInSearch": "Incluido en búsqueda",
+    "includeInSearch": "Incluir en búsqueda",
+    "excludeFromSearch": "Excluir de búsqueda",
+    "clipSetToPrivate": "Clip establecido como privado",
+    "clipSetToPublic": "Clip establecido como público",
+    "makePublic": "Hacer público",
+    "makePrivate": "Hacer privado",
+    "keyboardShortcuts": "Atajos de Teclado",
+    "close": "Cerrar",
+    "closeKeyboardShortcuts": "Cerrar atajos de teclado"
+  },
+  "signupPrompt": {
+    "title": "Únete Gratis",
+    "intro": "Desbloquea tus superpoderes de recorte:",
+    "benefits": {
+      "track": "Mantén el control de tus clips",
+      "edit": "Edita clips en cualquier momento",
+      "counter": "Contador de vistas privado",
+      "descriptions": "Descripciones personalizadas",
+      "drafts": "Guarda trabajo en progreso",
+      "playlists": "Compón tus propios mixtapes de clips"
+    },
+    "anonymousNote": "Nota: Los clips anónimos mayores a un año desaparecerán en el vacío.",
+    "changeYourMind": "Sin presión, puedes irte en cualquier momento.",
+    "signUpButton": "Regístrame",
+    "skipButton": "Tal Vez Después",
+    "doNotAskButton": "Deja de molestar"
+  },
+  "tabs": {
+    "clips": "Clips",
+    "playlists": "Listas"
+  },
+  "clips": {
+    "title": "Tus Clips",
+    "create": "Crear Clip",
+    "edit": "Editar Clip",
+    "delete": "Eliminar Clip",
+    "share": "Compartir Clip",
+    "empty": "Sin clips todavía",
+    "emptyDescription": "Crea tu primer clip de video para comenzar",
+    "search": "Buscar clips...",
+    "sortBy": "Ordenar por",
+    "sortOptions": {
+      "newest": "Más recientes",
+      "oldest": "Más antiguos",
+      "mostViewed": "Más vistos",
+      "title": "Título (A-Z)"
+    },
+    "stats": {
+      "views": "{{count}} vista",
+      "views_other": "{{count}} vistas",
+      "duration": "Duración: {{duration}}",
+      "platform": "Plataforma: {{platform}}"
+    }
+  },
+  "playlists": {
+    "title": "Tus Listas",
+    "create": "Crear Lista",
+    "edit": "Editar Lista",
+    "delete": "Eliminar Lista",
+    "share": "Compartir Lista",
+    "empty": "Sin listas todavía",
+    "emptyDescription": "Crea una lista para organizar tus clips",
+    "search": "Buscar listas...",
+    "stats": {
+      "clips": "{{count}} clip",
+      "clips_other": "{{count}} clips"
+    }
+  },
+  "createClip": {
+    "title": "Crear Nuevo Clip",
+    "videoUrl": "URL del Video",
+    "videoUrlPlaceholder": "Pega URL de YouTube, Vimeo o Dailymotion",
+    "startTime": "Tiempo de Inicio",
+    "endTime": "Tiempo Final",
+    "clipTitle": "Título del Clip",
+    "description": "Descripción (opcional)",
+    "tags": "Etiquetas",
+    "privacy": "Privacidad",
+    "privacyOptions": {
+      "public": "Público",
+      "private": "Privado"
+    },
+    "settings": "Configuración del Video",
+    "autoplay": "Reproducción Automática",
+    "muted": "Silenciado",
+    "controls": "Mostrar Controles",
+    "relatedVideos": "Mostrar Videos Relacionados",
+    "button": "Crear Clip",
+    "success": "¡Clip creado exitosamente!",
+    "error": "Error al crear clip"
+  },
+  "editClip": {
+    "title": "Editar Clip",
+    "button": "Guardar Cambios",
+    "success": "¡Clip actualizado exitosamente!",
+    "error": "Error al actualizar clip"
+  },
+  "deleteClip": {
+    "title": "¿Eliminar Clip?",
+    "message": "¿Estás seguro de que quieres eliminar este clip? Esta acción no se puede deshacer.",
+    "button": "Eliminar",
+    "success": "¡Clip eliminado exitosamente!",
+    "error": "Error al eliminar clip"
+  },
+  "createPlaylist": {
+    "title": "Crear Lista",
+    "name": "Nombre de la Lista",
+    "description": "Descripción (opcional)",
+    "privacy": "Privacidad",
+    "button": "Crear Lista",
+    "success": "¡Lista creada exitosamente!",
+    "error": "Error al crear lista"
+  },
+  "addToPlaylist": {
+    "title": "Agregar a Lista",
+    "selectPlaylist": "Selecciona una lista",
+    "createNew": "Crear nueva lista",
+    "button": "Agregar",
+    "success": "¡Agregado a la lista!",
+    "error": "Error al agregar a la lista"
+  }
+}

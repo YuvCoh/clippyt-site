@@ -1,0 +1,79 @@
+{
+  "notFound": {
+    "title": "404 vibes — no está aquí.",
+    "message": "La página que buscas no existe",
+    "button": "Ir al Inicio"
+  },
+  "serverError": {
+    "title": "Algo se rompió. Intenta de nuevo.",
+    "message": "Estamos experimentando dificultades técnicas. Por favor, intenta más tarde.",
+    "button": "Actualizar Página"
+  },
+  "unauthorized": {
+    "title": "No perteneces aquí.",
+    "message": "No tienes permiso para acceder a esta página",
+    "button": "Ir al Inicio"
+  },
+  "forbidden": {
+    "title": "No entrar",
+    "message": "El acceso a este recurso está prohibido"
+  },
+  "network": {
+    "title": "Contratiempo de red. Verifica tu conexión.",
+    "message": "No se puede conectar al servidor. Por favor, verifica tu conexión a internet.",
+    "button": "Reintentar"
+  },
+  "timeout": {
+    "title": "Tiempo de Espera Agotado",
+    "message": "La solicitud tardó demasiado en completarse. Por favor, intenta de nuevo.",
+    "button": "Reintentar"
+  },
+  "validation": {
+    "invalidUrl": "Eso no parece una URL de video válida.",
+    "notAUrl": "Eso es una búsqueda, no un enlace.\n1. Encuentra el video\n2. Copia su URL",
+    "searchQueryOrTitle": "Esto parece una consulta de búsqueda o título de video, no una URL.\n1. Busca el video\n2. Copia la URL de la barra de direcciones del navegador",
+    "typoInDomain": "Verifica la ortografía de la URL.",
+    "otherPlatformNotSupported": "Esta plataforma aún no es compatible.",
+    "invalidTimeRange": "El tiempo final debe ser después del tiempo de inicio",
+    "titleRequired": "El título del clip es requerido",
+    "titleTooLong": "El título debe tener menos de 100 caracteres",
+    "descriptionTooLong": "La descripción debe tener menos de 500 caracteres",
+    "emailInvalid": "Por favor, ingresa una dirección de correo válida",
+    "passwordTooShort": "La contraseña debe tener al menos 8 caracteres",
+    "passwordsDoNotMatch": "Las contraseñas no coinciden"
+  },
+  "clip": {
+    "loadFailed": "Carga fallida. Atorado buffeando.",
+    "saveFailed": "No se pudo guardar. Intenta de nuevo.",
+    "deleteFailed": "Eliminación fallida. Aún colgado.",
+    "notFound": "Ese clip desapareció.",
+    "invalidVideo": "URL de video inválida o no compatible"
+  },
+  "playlist": {
+    "loadFailed": "Error al cargar la lista",
+    "saveFailed": "Error al guardar la lista",
+    "deleteFailed": "Error al eliminar la lista",
+    "notFound": "La lista desapareció.",
+    "addClipFailed": "Error al agregar clip a la lista"
+  },
+  "auth": {
+    "sessionExpired": "Tu sesión ha expirado. Por favor, inicia sesión de nuevo.",
+    "invalidCredentials": "Correo o contraseña inválidos",
+    "emailInUse": "El correo ya está en uso",
+    "weakPassword": "La contraseña es demasiado débil",
+    "tooManyAttempts": "Demasiados intentos fallidos. Por favor, intenta más tarde."
+  },
+  "upload": {
+    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {{maxSize}}",
+    "unsupportedFormat": "Formato de archivo no compatible",
+    "uploadFailed": "Carga fallida. Por favor, intenta de nuevo."
+  },
+  "general": {
+    "unknownError": "Ocurrió un error inesperado",
+    "generic": "Algo se rompió. Intenta de nuevo.",
+    "tryAgain": "Por favor, intenta de nuevo",
+    "contactSupport": "Si el problema persiste, por favor contacta a soporte",
+    "videoPlayerError": "Error del reproductor de video. Por favor, actualiza la página.",
+    "adminSectionError": "Error de sección admin. Por favor, actualiza o prueba otra pestaña."
+  }
+}

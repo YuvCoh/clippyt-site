@@ -1,0 +1,181 @@
+{
+  "title": "My Clips",
+  "subtitle": "Manage your video clips and playlists",
+  "mainScreen": {
+    "heroTitle": "ClippYT",
+    "heroSubtitle": "Create permanent custom clips",
+    "howItWorks": {
+      "step1": "Paste",
+      "step2": "Snip",
+      "step3": "Brag"
+    },
+    "urlPlaceholder": "Drop a video link (YouTube, Vimeo, or Dailymotion)...",
+    "emptyUrlError": "Paste a video URL from YouTube, Vimeo, or Dailymotion to get started.",
+    "tryLoadVideo": "Load it up",
+    "loadingVideo": "Loading video...",
+    "playPreview": "Roll Preview",
+    "pausePreview": "Pause the preview",
+    "pause": "Pause",
+    "advancedSettings": "Tuneup",
+    "clipIt": "Clip it",
+    "clipItButton": "Clip It",
+    "creatingClip": "Scissors at work",
+    "untitledClip": "Untitled Clip",
+    "failedToCreate": "Oops, couldn't snip it. Try again.",
+    "startTimeLabel": "Start Time",
+    "endTimeLabel": "End Time",
+    "startTimePlaceholder": "Enter start time in MM:SS format",
+    "endTimePlaceholder": "Enter end time in MM:SS format",
+    "updating": "Updating...",
+    "updateClip": "Update Clip",
+    "clipTitleLabel": "Clip Title",
+    "clipTitleRequired": " *",
+    "clipTitlePlaceholder": "Enter a title for your clip",
+    "descriptionLabel": "Description (optional)",
+    "descriptionPlaceholder": "Add a description for your clip",
+    "settingsLabel": "Settings",
+    "videoMuted": "Video will be muted",
+    "videoUnmuted": "Video will be unmuted",
+    "unmuteVideo": "Unmute video",
+    "muteVideo": "Mute video",
+    "controlsEnabled": "Controls enabled",
+    "controlsDisabled": "Controls disabled",
+    "hideControls": "Hide controls",
+    "showControls": "Show controls",
+    "autoplayEnabled": "Autoplay enabled",
+    "autoplayDisabled": "Autoplay disabled",
+    "disableAutoplay": "Disable autoplay",
+    "enableAutoplay": "Enable autoplay",
+    "excludedFromSearch": "Excluded from search",
+    "includedInSearch": "Included in search",
+    "includeInSearch": "Include in search",
+    "excludeFromSearch": "Exclude from search",
+    "clipSetToPrivate": "Clip set to private",
+    "clipSetToPublic": "Clip set to public",
+    "makePublic": "Make public",
+    "makePrivate": "Make private",
+    "keyboardShortcuts": "Keyboard Shortcuts",
+    "close": "Close",
+    "closeKeyboardShortcuts": "Close keyboard shortcuts",
+    "twitch": {
+      "liveUnsupported": "Twitch live stream clipping isn't ready yet. Try a Twitch VOD or clip URL instead.",
+      "liveAuthRequired": "Twitch live stream clipping requires authentication. Connect your Twitch account or use a VOD or clip URL.",
+      "liveAuthDismissInfo": "Twitch live stream clipping requires authentication. Try a Twitch VOD or clip URL instead, or connect your Twitch account to clip live streams.",
+      "oauthNotConfigured": "Twitch login isn't configured yet. Please contact support.",
+      "authPopupInfo": "Please complete the authorization in the Twitch popup window.",
+      "clipUnmappedBadge": "Twitch clip (limited controls)",
+      "clipUnmappedMessage": "This Twitch clip is playing directly from Twitch. Some clips can't be mapped to a VOD, so preview controls are disabled. Use the controls inside the Twitch player instead."
+    }
+  },
+  "signupPrompt": {
+    "title": "Join for Free",
+    "intro": "Unlock your clipping superpowers:",
+    "benefits": {
+      "track": "Keep tabs on your clips",
+      "edit": "Edit clips anytime",
+      "counter": "Private watch counter",
+      "descriptions": "Personalized descriptions",
+      "drafts": "Save work-in-progress",
+      "playlists": "Compose your own clip mixtapes"
+    },
+    "anonymousNote": "Note: Anonymous clips over a year old shall vanish into the void.",
+    "changeYourMind": "No pressure, you can bail anytime.",
+    "signUpButton": "Sign Me Up",
+    "skipButton": "Maybe Later",
+    "doNotAskButton": "Stop bugging me"
+  },
+  "tabs": {
+    "clips": "Clips",
+    "playlists": "Playlists"
+  },
+  "clips": {
+    "title": "Your Clips",
+    "create": "Create Clip",
+    "edit": "Edit Clip",
+    "delete": "Delete Clip",
+    "share": "Share Clip",
+    "empty": "No clips yet",
+    "emptyDescription": "Create your first video clip to get started",
+    "search": "Search clips...",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "mostViewed": "Most viewed",
+      "title": "Title (A-Z)"
+    },
+    "stats": {
+      "views": "{{count}} view",
+      "views_other": "{{count}} views",
+      "duration": "Duration: {{duration}}",
+      "platform": "Platform: {{platform}}"
+    }
+  },
+  "playlists": {
+    "title": "Your Playlists",
+    "create": "Create Playlist",
+    "edit": "Edit Playlist",
+    "delete": "Delete Playlist",
+    "share": "Share Playlist",
+    "empty": "No playlists yet",
+    "emptyDescription": "Create a playlist to organize your clips",
+    "search": "Search playlists...",
+    "stats": {
+      "clips": "{{count}} clip",
+      "clips_other": "{{count}} clips"
+    }
+  },
+  "createClip": {
+    "title": "Create New Clip",
+    "videoUrl": "Video URL",
+    "videoUrlPlaceholder": "Paste YouTube, Vimeo, or Dailymotion URL",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "clipTitle": "Clip Title",
+    "description": "Description (optional)",
+    "tags": "Tags",
+    "privacy": "Privacy",
+    "privacyOptions": {
+      "public": "Public",
+      "private": "Private"
+    },
+    "settings": "Video Settings",
+    "autoplay": "Autoplay",
+    "muted": "Muted",
+    "controls": "Show Controls",
+    "relatedVideos": "Show Related Videos",
+    "button": "Create Clip",
+    "success": "Clip created successfully!",
+    "error": "Failed to create clip"
+  },
+  "editClip": {
+    "title": "Edit Clip",
+    "button": "Save Changes",
+    "success": "Clip updated successfully!",
+    "error": "Failed to update clip"
+  },
+  "deleteClip": {
+    "title": "Delete Clip?",
+    "message": "Are you sure you want to delete this clip? This action cannot be undone.",
+    "button": "Delete",
+    "success": "Clip deleted successfully!",
+    "error": "Failed to delete clip"
+  },
+  "createPlaylist": {
+    "title": "Create Playlist",
+    "name": "Playlist Name",
+    "description": "Description (optional)",
+    "privacy": "Privacy",
+    "button": "Create Playlist",
+    "success": "Playlist created successfully!",
+    "error": "Failed to create playlist"
+  },
+  "addToPlaylist": {
+    "title": "Add to Playlist",
+    "selectPlaylist": "Select a playlist",
+    "createNew": "Create new playlist",
+    "button": "Add",
+    "success": "Added to playlist!",
+    "error": "Failed to add to playlist"
+  }
+}
