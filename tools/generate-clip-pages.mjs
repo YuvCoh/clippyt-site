@@ -110,9 +110,13 @@ for (const c of clips) {
     html = setMeta(html, 'name', 'twitter:player:height', '720');
   }
 
-  const dir = path.join(dist, 'clip', c.id);
-  await fs.mkdir(dir, { recursive: true });
-  await fs.writeFile(path.join(dir, 'index.html'), html);
+  // /clip/<id> (the share link) and /embed/<id> (iframe target) both get a
+  // real 200 page instead of the 404.html SPA fallback.
+  for (const kind of ['clip', 'embed']) {
+    const dir = path.join(dist, kind, c.id);
+    await fs.mkdir(dir, { recursive: true });
+    await fs.writeFile(path.join(dir, 'index.html'), html);
+  }
   written++;
 }
-console.log(`generate-clip-pages: wrote ${written} clip pages under ${dist}/clip/`);
+console.log(`generate-clip-pages: wrote ${written} clip + embed pages under ${dist}/`);

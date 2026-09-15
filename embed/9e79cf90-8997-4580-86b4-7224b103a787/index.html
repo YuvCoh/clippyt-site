@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="google-adsense-account" content="ca-pub-8476549975254142">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="4:41 → 5:54 · 1:13 · Plays exactly this moment. Made with ClippYT." />
+    <meta name="keywords" content="YouTube clip, video clipper, clip YouTube video, share video segment, trim video online, Vimeo clip, Dailymotion clip, video timestamps, clip playlists" />
+    <meta name="author" content="ClippYT" />
+    <meta name="theme-color" content="#DC2626" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="video.other" />
+    <meta property="og:url" content="https://clippyt.com/clip/9e79cf90-8997-4580-86b4-7224b103a787" />
+    <meta property="og:title" content="Ren - Vincent's Tale - Starry Night" />
+    <meta property="og:description" content="4:41 → 5:54 · 1:13 · Plays exactly this moment. Made with ClippYT." />
+    <meta property="og:image" content="https://i.ytimg.com/vi/MTn_bhTVr2U/hqdefault.jpg" />
+    <meta property="og:site_name" content="ClippYT" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="player" />
+    <meta name="twitter:url" content="https://clippyt.com/clip/9e79cf90-8997-4580-86b4-7224b103a787" />
+    <meta name="twitter:title" content="Ren - Vincent's Tale - Starry Night" />
+    <meta name="twitter:description" content="4:41 → 5:54 · 1:13 · Plays exactly this moment. Made with ClippYT." />
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/MTn_bhTVr2U/hqdefault.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://clippyt.com/clip/9e79cf90-8997-4580-86b4-7224b103a787" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ClippYT" />
+    <title>Ren - Vincent's Tale - Starry Night · ClippYT</title>
+    <!-- Speed up first connection to video/thumbnail origins -->
+    <link rel="preconnect" href="https://www.youtube.com" />
+    <link rel="preconnect" href="https://i.ytimg.com" />
+    <link rel="preconnect" href="https://img.youtube.com" />
+    <!-- NOTE: the YouTube iframe API script is intentionally NOT loaded here.
+         The player adapter (sdkLoader) injects it on demand, so pages without
+         a player (browse, settings, auth, ...) no longer download ~150 KB of
+         YouTube widget JS on every visit. -->
+    <script type="module" crossorigin src="/assets/index-DiOKemfY.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BzjQ1tM-.css">
+  <link rel="manifest" href="/manifest.webmanifest">    <meta property="og:video" content="https://www.youtube.com/embed/MTn_bhTVr2U?start=281&amp;end=354&amp;autoplay=1" />
+      <meta property="og:video:secure_url" content="https://www.youtube.com/embed/MTn_bhTVr2U?start=281&amp;end=354&amp;autoplay=1" />
+      <meta property="og:video:type" content="text/html" />
+      <meta property="og:video:width" content="1280" />
+      <meta property="og:video:height" content="720" />
+      <meta name="twitter:player" content="https://clippyt.com/embed/9e79cf90-8997-4580-86b4-7224b103a787" />
+      <meta name="twitter:player:width" content="1280" />
+      <meta name="twitter:player:height" content="720" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- Fallback content for Lighthouse/no-JS scenarios -->
+      <div style="display:flex;align-items:center;justify-content:center;height:100vh;font-family:system-ui,-apple-system,sans-serif;color:#1f2937;">
+        <div style="text-align:center;">
+          <h1 style="font-size:2rem;margin-bottom:0.5rem;color:#DC2626;">ClippYT</h1>
+          <p style="color:#6b7280;">Loading application...</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      // PWA Install Prompt Handler
+      let deferredPrompt;
+
+      window.addEventListener('beforeinstallprompt', (e) => {
+        // Prevent Chrome 67 and earlier from automatically showing the prompt
+        e.preventDefault();
+        // Stash the event so it can be triggered later
+        deferredPrompt = e;
+
+        // Dispatch custom event that React components can listen to
+        window.dispatchEvent(new CustomEvent('pwa-install-available', { detail: e }));
+      });
+
+      window.addEventListener('appinstalled', () => {
+        deferredPrompt = null;
+        // Dispatch custom event that React components can listen to
+        window.dispatchEvent(new CustomEvent('pwa-installed'));
+      });
+    </script>
+  </body>
+</html>
