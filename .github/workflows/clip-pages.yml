@@ -1,0 +1,38 @@
+# Regenerates per-clipp link-preview pages (clip/<id>/index.html) so clipps
+# made between app deploys unfurl correctly when shared. Runs on the public
+# site repo (free Actions minutes). The anon key is public by design (RLS).
+name: Refresh clip preview pages
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clip-pages
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Generate clip pages
+        run: node tools/generate-clip-pages.mjs --dist . --site https://clippyt.com
+        env:
+          VITE_SUPABASE_URL: https://mkxcxogebotrmipqunwl.supabase.co
+          VITE_SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY }}
+      - name: Commit if changed
+        run: |
+          git config user.name "clippyt-bot"
+          git config user.email "bot@clippyt.com"
+          git add clip
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Refresh clip preview pages"
+          git push
