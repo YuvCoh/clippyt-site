@@ -178,7 +178,8 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 let platformPages = [];
 for (const candidate of [path.join(here, 'platform-pages.json'), path.join(here, '..', 'src', 'seo', 'platform-pages.json')]) {
   try {
-    platformPages = JSON.parse(await fs.readFile(candidate, 'utf8'));
+    // "enabled": false marks platforms switched off in the app (featureFlags PLATFORMS)
+    platformPages = JSON.parse(await fs.readFile(candidate, 'utf8')).filter(p => p.enabled !== false);
     break;
   } catch {
     /* try next */

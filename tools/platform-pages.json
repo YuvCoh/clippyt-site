@@ -33,6 +33,7 @@
   {
     "slug": "clip-twitch-vod",
     "platform": "twitch",
+    "enabled": false,
     "name": "Twitch",
     "title": "Clip a Twitch VOD moment of any length and share the link",
     "h1": "Share part of a Twitch VOD",
@@ -61,6 +62,7 @@
   {
     "slug": "clip-rumble-video",
     "platform": "rumble",
+    "enabled": false,
     "name": "Rumble",
     "title": "Clip a Rumble video — share a start-to-end moment with a link",
     "h1": "Share part of a Rumble video",
