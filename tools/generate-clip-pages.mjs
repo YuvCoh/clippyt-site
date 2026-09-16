@@ -65,7 +65,7 @@ const setMeta = (html, attr, key, value) => {
 const limit = Math.max(1, parseInt(args.limit || process.env.CLIP_PAGES_LIMIT || '2000', 10) || 2000);
 
 const res = await fetch(
-  `${supabaseUrl}/rest/v1/clips?select=id,title,description,thumbnail_url,thumbnail_frame,video_title,start_time,end_time,platform,video_id,video_url,is_private&is_private=eq.false&order=created_at.desc&limit=${limit}`,
+  `${supabaseUrl}/rest/v1/clips?select=id,title,description,thumbnail_url,thumbnail_frame,video_title,start_time,end_time,platform,video_id,video_url,is_private&is_private=eq.false&title=neq.${encodeURIComponent('ClippYT smoke test')}&order=created_at.desc&limit=${limit}`,
   { headers: { apikey: anonKey, Authorization: `Bearer ${anonKey}` } }
 );
 if (!res.ok) {

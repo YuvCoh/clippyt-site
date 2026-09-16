@@ -24,7 +24,8 @@ test('paste → mark → save', async ({ page }) => {
   await link.fill(VIDEO_URL);
 
   // The player mounts (YouTube iframe inside the player container)
-  const iframe = page.locator('#youtube-player iframe, [id$="-player"] iframe').first();
+  // (the YouTube API replaces the container div with the iframe itself)
+  const iframe = page.locator('main iframe').first();
   await expect(iframe).toBeVisible({ timeout: 45_000 });
 
   // Mark buttons enable once the video can play
@@ -47,7 +48,7 @@ test('shared link plays', async ({ page }) => {
   test.skip(!playerTests, 'SMOKE_PLAYER=off');
   await page.goto(`/clip/${SEED_CLIP}`);
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible({ timeout: 30_000 });
-  const iframe = page.locator('[id$="-player"] iframe').first();
+  const iframe = page.locator('main iframe').first();
   await expect(iframe).toBeVisible({ timeout: 45_000 });
   await expect(page.getByRole('button', { name: 'Copy link' })).toBeVisible();
 });
