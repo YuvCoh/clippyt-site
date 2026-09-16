@@ -1,0 +1,61 @@
+# Post-deploy smoke tests (architecture review item 10). Runs on the public
+# site repo after every GitHub Pages deployment of an app build (the 20-minute
+# clip-page refresh commits are skipped). Three journeys against the LIVE
+# site: paste→mark→save, shared link plays, Open Graph tags present.
+#
+# Repo variables (Settings → Variables):
+#   SMOKE_PLAYER=off      skip the two player journeys if YouTube blocks CI IPs
+#   SMOKE_SEED_CLIP=<id>  a public clip id to open (default: seeded Steve Jobs)
+name: Smoke tests
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'clip/**'
+      - 'embed/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null
+          npm i --no-save @playwright/test@1.47.2
+          npx playwright install --with-deps chromium
+      - name: Wait until Pages serves this commit's bundle
+        run: |
+          want=$(grep -o 'assets/index-[A-Za-z0-9_-]*\.js' index.html | head -1)
+          echo "expecting $want"
+          for i in $(seq 1 40); do
+            if curl -fsSL https://clippyt.com/ | grep -q "$want"; then echo "live after ${i}x15s"; exit 0; fi
+            sleep 15
+          done
+          echo "Pages did not serve $want within 10 minutes"; exit 1
+      - name: Run smoke tests
+        env:
+          SMOKE_BASE_URL: https://clippyt.com
+          SMOKE_PLAYER: ${{ vars.SMOKE_PLAYER }}
+          SMOKE_SEED_CLIP: ${{ vars.SMOKE_SEED_CLIP }}
+        run: npx playwright test -c smoke/playwright.config.mjs
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-report
+          path: smoke-report
+          retention-days: 7

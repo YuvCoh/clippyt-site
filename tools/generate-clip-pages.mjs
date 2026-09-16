@@ -57,8 +57,15 @@ const setMeta = (html, attr, key, value) => {
   return re.test(html) ? html.replace(re, tag) : html.replace('</head>', `    ${tag}\n  </head>`);
 };
 
+// Cap (item 7 of the architecture review): static pages are generated for the
+// most recent N public clipps only. Older clipps still work — the SPA
+// fallback (404.html) serves them, they just unfurl with the generic card.
+// Raise via --limit or CLIP_PAGES_LIMIT when the corpus grows; the practical
+// ceiling is the ~1 GB Pages repo and the 20-minute refresh job.
+const limit = Math.max(1, parseInt(args.limit || process.env.CLIP_PAGES_LIMIT || '2000', 10) || 2000);
+
 const res = await fetch(
-  `${supabaseUrl}/rest/v1/clips?select=id,title,description,thumbnail_url,start_time,end_time,platform,video_id,video_url,is_private&is_private=eq.false&order=created_at.desc&limit=5000`,
+  `${supabaseUrl}/rest/v1/clips?select=id,title,description,thumbnail_url,thumbnail_frame,video_title,start_time,end_time,platform,video_id,video_url,is_private&is_private=eq.false&order=created_at.desc&limit=${limit}`,
   { headers: { apikey: anonKey, Authorization: `Bearer ${anonKey}` } }
 );
 if (!res.ok) {
@@ -74,10 +81,11 @@ for (const c of clips) {
   const range = `${fmt(c.start_time)} → ${fmt(c.end_time)}`;
   const len = Math.max(0, c.end_time - c.start_time);
   const lenLabel = len >= 60 ? fmt(len) : `${Math.round(len)} s`;
-  const desc = `${range} · ${lenLabel} · ${c.description ? c.description.trim().slice(0, 120) + ' · ' : ''}Plays exactly this moment. Made with ClippYT.`;
+  const from = c.video_title && c.video_title.trim() && c.video_title.trim() !== title ? `From "${c.video_title.trim().slice(0, 80)}" · ` : '';
+  const desc = `${from}${range} · ${lenLabel} · ${c.description ? c.description.trim().slice(0, 120) + ' · ' : ''}Plays exactly this moment. Made with ClippYT.`;
   const url = `${site}/clip/${c.id}`;
-  let image = c.thumbnail_url || `${site}/og-image.png`;
-  if (c.platform === 'youtube' && c.video_id && /^[A-Za-z0-9_-]{11}$/.test(c.video_id)) {
+  let image = c.thumbnail_frame || c.thumbnail_url || `${site}/og-image.png`;
+  if (!c.thumbnail_frame && c.platform === 'youtube' && c.video_id && /^[A-Za-z0-9_-]{11}$/.test(c.video_id)) {
     // Larger frame than the stored mq thumbnail; same frame index if one was chosen
     const m = (c.thumbnail_url || '').match(/\/vi\/[^/]+\/(1|2|3)\.jpg/);
     image = m ? `https://i.ytimg.com/vi/${c.video_id}/hq${m[1]}.jpg` : `https://i.ytimg.com/vi/${c.video_id}/hqdefault.jpg`;
