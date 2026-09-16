@@ -1,1 +1,0 @@
-import{c as e,e as s,j as r,N as c}from"./index-8_f2L2I3.js";import"./vendor-supabase-C4-oOo0Z.js";function n(){const{clipId:t}=e(),{search:a}=s();return r.jsx(c,{to:`/clip/${t}${a}`,replace:!0})}export{n as WatchScreen,n as default};
