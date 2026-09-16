@@ -1,0 +1,29 @@
+# RLS policy matrix (QA review item 8): anon + two non-admin test accounts
+# assert who can read/insert/update what. Runs nightly and on demand; run it
+# after every migration. Secrets: RLS_TEST_PASSWORD (repo secret);
+# vars: SUPABASE_ANON_KEY.
+name: RLS policy matrix
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run policy matrix
+        run: node tools/rls-check.mjs
+        env:
+          SUPABASE_URL: https://mkxcxogebotrmipqunwl.supabase.co
+          SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY }}
+          RLS_TEST_PASSWORD: ${{ secrets.RLS_TEST_PASSWORD }}
