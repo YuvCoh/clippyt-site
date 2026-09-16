@@ -1,8 +1,8 @@
 {
   "app": {
     "name": "ClippYT",
-    "tagline": "Clip & Share Videos",
-    "description": "Create and share video clips from YouTube, Vimeo, and Dailymotion"
+    "tagline": "The link that stops when the moment ends",
+    "description": "Share the exact moment of any YouTube, Vimeo or Dailymotion video"
   },
   "platforms": {
     "youtube": "YouTube",
@@ -13,9 +13,9 @@
   "nav": {
     "home": "Home",
     "browse": "Browse",
-    "console": "My Clips",
-    "clipConsole": "My Clips",
-    "settings": "Tweaks",
+    "console": "My Clipps",
+    "clipConsole": "My Clipps",
+    "settings": "Settings",
     "admin": "Admin",
     "auth": "Sign In",
     "signOut": "Sign Out",
@@ -50,7 +50,7 @@
     "saving": "Saving...",
     "deleting": "Deleting...",
     "processing": "Processing...",
-    "success": "Success!",
+    "success": "Done",
     "error": "Error",
     "warning": "Warning",
     "info": "Information",
@@ -70,10 +70,10 @@
     "noResults": "No results found",
     "noData": "No data available",
     "tryAgain": "Please try again",
-    "noClips": "No clips found",
+    "noClips": "No Clipps yet",
     "noPlaylists": "No playlists found",
     "noUsers": "No users found",
-    "nothingHere": "Nothing here yet.",
+    "nothingHere": "Nothing here yet",
     "noDescription": "No description"
   },
   "offline": {
@@ -82,16 +82,16 @@
     "retry": "Retry connection"
   },
   "success": {
-    "clipCreated": "Clip saved!",
-    "clipUpdated": "Clip polished!",
-    "clipDeleted": "Clip deleted successfully!",
-    "playlistCreated": "Mixtape created!",
-    "playlistUpdated": "Mixtape updated!",
-    "playlistDeleted": "Mixtape trashed.",
-    "playlistSaved": "Playlist saved successfully",
-    "linkCopied": "Link copied. Go brag!",
-    "clipUrlCopied": "Clip URL copied to clipboard!",
-    "settingsSaved": "Settings tucked away safely."
+    "clipCreated": "Saved",
+    "clipUpdated": "Changes saved",
+    "clipDeleted": "Clipp deleted",
+    "playlistCreated": "Playlist created",
+    "playlistUpdated": "Playlist updated",
+    "playlistDeleted": "Playlist deleted",
+    "playlistSaved": "Playlist saved",
+    "linkCopied": "Link copied",
+    "clipUrlCopied": "Link copied",
+    "settingsSaved": "Settings saved"
   },
   "a11y": {
     "skipToMain": "Skip to main content",
@@ -101,7 +101,7 @@
     "closeModal": "Close modal",
     "logoAlt": "ClippYT logo",
     "goToHome": "Go to home",
-    "userAvatar": "Your face here",
+    "userAvatar": "Your avatar",
     "thumbnail": "Video preview",
     "imageAlt": "Image",
     "emptyAlt": ""
@@ -141,7 +141,7 @@
     "results": "results"
   },
   "clipboard": {
-    "copied": "Copied to clipboard!",
-    "copyFailed": "Failed to copy"
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy - select the text and copy it yourself"
   }
 }

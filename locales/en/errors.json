@@ -1,41 +1,41 @@
 {
   "notFound": {
-    "title": "404 vibes — not here.",
-    "message": "The page you're looking for doesn't exist",
+    "title": "This page doesn't exist",
+    "message": "The link may be old or mistyped.",
     "button": "Go Home"
   },
   "serverError": {
-    "title": "Something broke. Try again.",
-    "message": "We're experiencing technical difficulties. Please try again later.",
+    "title": "Something went wrong on our side",
+    "message": "Nothing you did caused this. Refresh the page; if it keeps happening, email contact@clippyt.com.",
     "button": "Refresh Page"
   },
   "unauthorized": {
-    "title": "You don't belong here.",
-    "message": "You don't have permission to access this page",
+    "title": "You need an admin account for this page",
+    "message": "Sign in with an admin account, or go back home.",
     "button": "Go Home"
   },
   "forbidden": {
-    "title": "No entry",
+    "title": "Not available to your account",
     "message": "Access to this resource is forbidden"
   },
   "network": {
-    "title": "Network hiccup. Check your connection.",
-    "message": "Unable to connect to the server. Please check your internet connection.",
+    "title": "You're offline",
+    "message": "Check your connection, then retry. Nothing has been lost.",
     "button": "Retry"
   },
   "timeout": {
-    "title": "Request Timeout",
-    "message": "The request took too long to complete. Please try again.",
+    "title": "That took too long",
+    "message": "The server didn't answer in time. Retry once; if it keeps happening, wait a minute.",
     "button": "Retry"
   },
   "validation": {
-    "invalidUrl": "That doesn't look like a valid video URL.",
-    "notAUrl": "That's a search, not a link.\n1. Find the video\n2. Copy its URL",
-    "searchQueryOrTitle": "This looks like a search query or video title, not a URL.\n1. Search for the video\n2. Copy the URL from the browser's address bar",
-    "typoInDomain": "Check the URL spelling.",
-    "otherPlatformNotSupported": "This platform is not supported yet.",
-    "invalidTimeRange": "End time must be after start time",
-    "titleRequired": "Clip title is required",
+    "invalidUrl": "That isn't a video link. Copy the address from the browser bar of the video page.",
+    "notAUrl": "That looks like a search, not a link.\n1. Open the video\n2. Copy the address from the browser bar",
+    "searchQueryOrTitle": "That looks like a title, not a link.\n1. Open the video\n2. Copy the address from the browser bar",
+    "typoInDomain": "Check the spelling of the address - it doesn't match YouTube, Vimeo or Dailymotion.",
+    "otherPlatformNotSupported": "ClippYT works with YouTube, Vimeo and Dailymotion links for now.",
+    "invalidTimeRange": "The end has to come after the start",
+    "titleRequired": "Give the Clipp a title",
     "titleTooLong": "Title must be less than 100 characters",
     "descriptionTooLong": "Description must be less than 500 characters",
     "emailInvalid": "Please enter a valid email address",
@@ -43,21 +43,21 @@
     "passwordsDoNotMatch": "Passwords do not match"
   },
   "clip": {
-    "loadFailed": "Load failed. Stuck buffering.",
-    "saveFailed": "Couldn't save. Try again.",
-    "deleteFailed": "Delete failed. Still hanging around.",
-    "notFound": "That clip ghosted.",
-    "invalidVideo": "Invalid or unsupported video URL"
+    "loadFailed": "Couldn't load this video. It may be private, removed, or blocking embeds - try another link.",
+    "saveFailed": "Couldn't save. Check your connection and press Save again - your handles are still set.",
+    "deleteFailed": "Couldn't delete it. Try again.",
+    "notFound": "This Clipp no longer exists. It may have been deleted by its maker.",
+    "invalidVideo": "That link isn't a video ClippYT can play."
   },
   "playlist": {
-    "loadFailed": "Failed to load playlist",
-    "saveFailed": "Failed to save playlist",
-    "deleteFailed": "Failed to delete playlist",
-    "notFound": "Playlist vanished.",
-    "addClipFailed": "Failed to add clip to playlist"
+    "loadFailed": "Couldn't load this playlist. Refresh to try again.",
+    "saveFailed": "Couldn't save the playlist. Try again.",
+    "deleteFailed": "Couldn't delete the playlist. Try again.",
+    "notFound": "This playlist no longer exists.",
+    "addClipFailed": "Couldn't add it to the playlist. Try again."
   },
   "auth": {
-    "sessionExpired": "Your session has expired. Please sign in again.",
+    "sessionExpired": "You've been signed out. Sign in again to continue - nothing was lost.",
     "invalidCredentials": "Invalid email or password",
     "emailInUse": "Email is already in use",
     "weakPassword": "Password is too weak",
@@ -69,11 +69,11 @@
     "uploadFailed": "Upload failed. Please try again."
   },
   "general": {
-    "unknownError": "An unexpected error occurred",
-    "generic": "Something broke. Try again.",
+    "unknownError": "Something went wrong. Refresh the page and try again.",
+    "generic": "Something went wrong. Try again.",
     "tryAgain": "Please try again",
-    "contactSupport": "If the problem persists, please contact support",
-    "videoPlayerError": "Video player error. Please refresh the page.",
+    "contactSupport": "If it keeps happening, email contact@clippyt.com",
+    "videoPlayerError": "The player stopped responding. Refresh the page.",
     "adminSectionError": "Admin section error. Please refresh or try another tab."
   }
 }

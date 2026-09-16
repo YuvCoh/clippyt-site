@@ -1,38 +1,38 @@
 {
-  "title": "My Clips",
-  "subtitle": "Manage your video clips and playlists",
+  "title": "My Clipps",
+  "subtitle": "Your Clipps and playlists",
   "mainScreen": {
     "heroTitle": "ClippYT",
-    "heroSubtitle": "Create permanent custom clips",
+    "heroSubtitle": "The link that stops when the moment ends",
     "howItWorks": {
       "step1": "Paste",
-      "step2": "Snip",
-      "step3": "Brag"
+      "step2": "Mark",
+      "step3": "Share"
     },
-    "urlPlaceholder": "Drop a video link (YouTube, Vimeo, or Dailymotion)...",
-    "emptyUrlError": "Paste a video URL from YouTube, Vimeo, or Dailymotion to get started.",
-    "tryLoadVideo": "Load it up",
-    "loadingVideo": "Loading video...",
-    "playPreview": "Roll Preview",
-    "pausePreview": "Pause the preview",
+    "urlPlaceholder": "Paste a video link",
+    "emptyUrlError": "Paste a YouTube, Vimeo or Dailymotion link to start.",
+    "tryLoadVideo": "Open video",
+    "loadingVideo": "Loading video",
+    "playPreview": "Loop selection",
+    "pausePreview": "Pause",
     "pause": "Pause",
-    "advancedSettings": "Tuneup",
-    "clipIt": "Clip it",
-    "clipItButton": "Clip It",
-    "creatingClip": "Scissors at work",
-    "untitledClip": "Untitled Clip",
-    "failedToCreate": "Oops, couldn't snip it. Try again.",
+    "advancedSettings": "Playback settings",
+    "clipIt": "Save Clipp",
+    "clipItButton": "Save Clipp",
+    "creatingClip": "Saving",
+    "untitledClip": "Untitled Clipp",
+    "failedToCreate": "Couldn't save. Check your connection and press Save again - your handles are still set.",
     "startTimeLabel": "Start Time",
     "endTimeLabel": "End Time",
     "startTimePlaceholder": "Enter start time in MM:SS format",
     "endTimePlaceholder": "Enter end time in MM:SS format",
-    "updating": "Updating...",
-    "updateClip": "Update Clip",
-    "clipTitleLabel": "Clip Title",
+    "updating": "Saving",
+    "updateClip": "Save changes",
+    "clipTitleLabel": "Title",
     "clipTitleRequired": " *",
-    "clipTitlePlaceholder": "Enter a title for your clip",
+    "clipTitlePlaceholder": "Give it a name (optional)",
     "descriptionLabel": "Description (optional)",
-    "descriptionPlaceholder": "Add a description for your clip",
+    "descriptionPlaceholder": "Why it matters (optional)",
     "settingsLabel": "Settings",
     "videoMuted": "Video will be muted",
     "videoUnmuted": "Video will be unmuted",
@@ -68,35 +68,35 @@
     }
   },
   "signupPrompt": {
-    "title": "Join for Free",
-    "intro": "Unlock your clipping superpowers:",
+    "title": "Keep your Clipps together",
+    "intro": "A free account adds:",
     "benefits": {
-      "track": "Keep tabs on your clips",
-      "edit": "Edit clips anytime",
-      "counter": "Private watch counter",
-      "descriptions": "Personalized descriptions",
-      "drafts": "Save work-in-progress",
-      "playlists": "Compose your own clip mixtapes"
+      "track": "All your Clipps in one place, on every device",
+      "edit": "Rename and re-trim them later",
+      "counter": "A view count for each one",
+      "descriptions": "Descriptions and titles you can edit",
+      "drafts": "Private Clipps only you can open",
+      "playlists": "Playlists"
     },
-    "anonymousNote": "Note: Anonymous clips over a year old shall vanish into the void.",
-    "changeYourMind": "No pressure, you can bail anytime.",
-    "signUpButton": "Sign Me Up",
-    "skipButton": "Maybe Later",
-    "doNotAskButton": "Stop bugging me"
+    "anonymousNote": "Clipps made signed out stay on this device only and are kept for one year.",
+    "changeYourMind": "You can sign in later - your Clipps come with you.",
+    "signUpButton": "Create account",
+    "skipButton": "Not now",
+    "doNotAskButton": "Don't ask again"
   },
   "tabs": {
     "clips": "Clips",
     "playlists": "Playlists"
   },
   "clips": {
-    "title": "Your Clips",
-    "create": "Create Clip",
-    "edit": "Edit Clip",
-    "delete": "Delete Clip",
-    "share": "Share Clip",
-    "empty": "No clips yet",
-    "emptyDescription": "Create your first video clip to get started",
-    "search": "Search clips...",
+    "title": "Your Clipps",
+    "create": "New Clipp",
+    "edit": "Edit Clipp",
+    "delete": "Delete Clipp",
+    "share": "Share Clipp",
+    "empty": "No Clipps yet",
+    "emptyDescription": "Paste a link on Home to make your first one",
+    "search": "Search your Clipps",
     "sortBy": "Sort by",
     "sortOptions": {
       "newest": "Newest first",
@@ -118,20 +118,20 @@
     "delete": "Delete Playlist",
     "share": "Share Playlist",
     "empty": "No playlists yet",
-    "emptyDescription": "Create a playlist to organize your clips",
-    "search": "Search playlists...",
+    "emptyDescription": "A playlist groups Clipps into one shareable page",
+    "search": "Search playlists",
     "stats": {
       "clips": "{{count}} clip",
       "clips_other": "{{count}} clips"
     }
   },
   "createClip": {
-    "title": "Create New Clip",
+    "title": "New Clipp",
     "videoUrl": "Video URL",
-    "videoUrlPlaceholder": "Paste YouTube, Vimeo, or Dailymotion URL",
+    "videoUrlPlaceholder": "Paste a video link",
     "startTime": "Start Time",
     "endTime": "End Time",
-    "clipTitle": "Clip Title",
+    "clipTitle": "Title",
     "description": "Description (optional)",
     "tags": "Tags",
     "privacy": "Privacy",
@@ -144,22 +144,22 @@
     "muted": "Muted",
     "controls": "Show Controls",
     "relatedVideos": "Show Related Videos",
-    "button": "Create Clip",
-    "success": "Clip created successfully!",
-    "error": "Failed to create clip"
+    "button": "Save Clipp",
+    "success": "Saved",
+    "error": "Couldn't save. Check your connection and try again."
   },
   "editClip": {
-    "title": "Edit Clip",
-    "button": "Save Changes",
-    "success": "Clip updated successfully!",
-    "error": "Failed to update clip"
+    "title": "Edit Clipp",
+    "button": "Save changes",
+    "success": "Changes saved",
+    "error": "Couldn't save your changes. Try again."
   },
   "deleteClip": {
-    "title": "Delete Clip?",
-    "message": "Are you sure you want to delete this clip? This action cannot be undone.",
+    "title": "Delete this Clipp?",
+    "message": "Its link stops working for everyone. This cannot be undone.",
     "button": "Delete",
-    "success": "Clip deleted successfully!",
-    "error": "Failed to delete clip"
+    "success": "Clipp deleted",
+    "error": "Couldn't delete it. Try again."
   },
   "createPlaylist": {
     "title": "Create Playlist",
@@ -167,15 +167,15 @@
     "description": "Description (optional)",
     "privacy": "Privacy",
     "button": "Create Playlist",
-    "success": "Playlist created successfully!",
-    "error": "Failed to create playlist"
+    "success": "Playlist created",
+    "error": "Couldn't create the playlist. Try again."
   },
   "addToPlaylist": {
     "title": "Add to Playlist",
     "selectPlaylist": "Select a playlist",
     "createNew": "Create new playlist",
     "button": "Add",
-    "success": "Added to playlist!",
-    "error": "Failed to add to playlist"
+    "success": "Added to playlist",
+    "error": "Couldn't add it to the playlist. Try again."
   }
 }

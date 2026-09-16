@@ -37,7 +37,7 @@ test('paste → mark → save', async ({ page }) => {
 
   // Save
   await page.getByLabel('Clip title').fill(SMOKE_TITLE);
-  const save = page.getByRole('button', { name: 'Save Clip' });
+  const save = page.getByRole('button', { name: 'Save Clipp' });
   await expect(save).toBeEnabled();
   await save.click();
 
@@ -133,7 +133,7 @@ test('trim page: Preview never runs past the end handle', async ({ page }) => {
   await later.click();
   await later.click();
 
-  await page.getByRole('button', { name: 'Preview selection' }).click();
+  await page.getByRole('button', { name: 'Loop selection' }).click();
   // The selection summary shows "m:ss → m:ss"; read the end handle.
   const summary = page.locator('text=/\\d+:\\d\\d\\s*→\\s*\\d+:\\d\\d/').first();
   await expect(summary).toBeVisible();
