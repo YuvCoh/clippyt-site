@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "clip-youtube-video",
+    "platform": "youtube",
+    "name": "YouTube",
+    "title": "Clip a YouTube video and share just that part — free, no account",
+    "h1": "Share part of a YouTube video",
+    "description": "Make a YouTube link with a start AND an end time. Paste the video, mark the moment, share one link that plays only that part and stops when it ends. Works with Shorts. Free, no download, no account.",
+    "intro": "YouTube's own timestamp link (the ?t= one) starts at the right place and then keeps going. YouTube Clips are creator-gated and capped at 60 seconds. ClippYT gives any YouTube video a link with a start and an end, at any length, and it plays through YouTube's official player so the creator keeps the view.",
+    "example": "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+    "faq": [
+      ["Can I clip a YouTube Short?", "Yes. Paste the Shorts link like any other; the clip page plays it in the normal player."],
+      ["Does the creator still get the view?", "Yes. ClippYT never copies or re-uploads video. Your link opens the original video in YouTube's embedded player, jumped to your start and stopped at your end."],
+      ["Is there a length limit?", "No. Three seconds or thirty minutes, you decide. YouTube's built-in Clips stop at 60 seconds."],
+      ["Do I need an account?", "No. Make and share clips anonymously; an account only adds a library and playlists."]
+    ]
+  },
+  {
+    "slug": "clip-vimeo-video",
+    "platform": "vimeo",
+    "name": "Vimeo",
+    "title": "Clip a Vimeo video — share a start-to-end moment with one link",
+    "h1": "Share part of a Vimeo video",
+    "description": "Vimeo has no clip or timestamp-range links. Paste any public Vimeo video into ClippYT, mark a start and an end, and share a link that plays exactly that moment and stops. Free, no download.",
+    "intro": "Vimeo lets you link to a time (#t=) but nothing stops the video afterwards, and there's no built-in way to share a range. ClippYT plays your moment through Vimeo's official player and stops at your end handle, on any device.",
+    "example": "https://vimeo.com/1123898957",
+    "faq": [
+      ["Which Vimeo videos work?", "Any public or unlisted video that allows embedding. Private videos that block embeds can't be played by anyone, so they can't be clipped."],
+      ["Does it work on mobile?", "Yes. The clip link opens a page that autoplays your moment (muted, tap for sound) in Vimeo's player."],
+      ["Is anything downloaded or re-uploaded?", "No. Only the link and your two timestamps are stored."]
+    ]
+  },
+  {
+    "slug": "clip-twitch-vod",
+    "platform": "twitch",
+    "name": "Twitch",
+    "title": "Clip a Twitch VOD moment of any length and share the link",
+    "h1": "Share part of a Twitch VOD",
+    "description": "Twitch clips are capped at 60 seconds and must be made live. Paste a Twitch VOD into ClippYT, mark any start and end, and share one link that plays just that part. Free, no download.",
+    "intro": "Twitch's own clips are short and tied to the moment they're made. For a VOD you already have, ClippYT gives you a link with a start and an end of any length, played through the official Twitch player.",
+    "faq": [
+      ["Can I clip a live stream?", "Not yet. Paste the VOD once the stream is over; live clipping is on the roadmap."],
+      ["Is there a length limit?", "No. Twitch's built-in clips stop at 60 seconds; ClippYT clips can be any length."],
+      ["Does the streamer keep the view?", "Yes. The VOD plays in Twitch's embedded player, not a copy."]
+    ]
+  },
+  {
+    "slug": "clip-dailymotion-video",
+    "platform": "dailymotion",
+    "name": "Dailymotion",
+    "title": "Clip a Dailymotion video — share one moment with a link",
+    "h1": "Share part of a Dailymotion video",
+    "description": "Paste any Dailymotion video into ClippYT, mark a start and an end, and share a link that plays just that moment and stops. Free, no account, no download.",
+    "intro": "Dailymotion has no share-a-range feature. ClippYT plays your moment through Dailymotion's official player, starts where you marked and stops where you marked.",
+    "example": "https://www.dailymotion.com/video/xb7ovuq",
+    "faq": [
+      ["Which videos work?", "Any public Dailymotion video that allows embedding."],
+      ["Is the video copied?", "No. Only the link and your two timestamps are stored; playback is Dailymotion's own player."]
+    ]
+  },
+  {
+    "slug": "clip-rumble-video",
+    "platform": "rumble",
+    "name": "Rumble",
+    "title": "Clip a Rumble video — share a start-to-end moment with a link",
+    "h1": "Share part of a Rumble video",
+    "description": "Paste a Rumble video into ClippYT, mark a start and an end, and share one link that plays only that part and stops. Free, no account, no download.",
+    "intro": "Rumble links start at the beginning every time. ClippYT gives any Rumble video a link with a start and an end, played through Rumble's official embed.",
+    "faq": [
+      ["Which videos work?", "Any public Rumble video with an embed."],
+      ["Is the video copied?", "No. Only the link and your two timestamps are stored."]
+    ]
+  }
+]

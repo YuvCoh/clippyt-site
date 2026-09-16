@@ -5,24 +5,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ClippYT — clip YouTube, Vimeo and Dailymotion videos in seconds. Pick a start and end time, get a permanent shareable link, and organize clips into playlists. Free, no download." />
-    <meta name="keywords" content="YouTube clip, video clipper, clip YouTube video, share video segment, trim video online, Vimeo clip, Dailymotion clip, video timestamps, clip playlists" />
+    <meta name="description" content="Share the exact moment of any YouTube, Vimeo, Dailymotion, Twitch or Rumble video. Mark a start and an end, get one link that plays just that part and stops when it ends. Free, no account, no download." />
+    <meta name="keywords" content="share part of a youtube video, youtube link with start and end time, clip youtube video, clip vimeo video, clip twitch vod, clip dailymotion video, clip rumble video, video timestamp link, share video moment" />
     <meta name="author" content="ClippYT" />
     <meta name="theme-color" content="#DC2626" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://clippyt.com/" />
-    <meta property="og:title" content="ClippYT — Clip and Share Video Moments" />
-    <meta property="og:description" content="Trim the fluff, share the stuff. Create and share perfect video clips from YouTube, Vimeo and Dailymotion in seconds." />
+    <meta property="og:title" content="ClippYT — Share the exact moment. The link stops when the moment ends." />
+    <meta property="og:description" content="A timestamp link starts at the right place and never stops. A ClippYT link plays your start-to-end moment from YouTube, Vimeo, Dailymotion, Twitch or Rumble — then stops. Free, no account." />
     <meta property="og:image" content="https://clippyt.com/og-image.png" />
     <meta property="og:site_name" content="ClippYT" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://clippyt.com/" />
-    <meta name="twitter:title" content="ClippYT — Clip and Share Video Moments" />
-    <meta name="twitter:description" content="Trim the fluff, share the stuff. Create and share perfect video clips in seconds." />
+    <meta name="twitter:title" content="ClippYT — Share the exact moment. The link stops when the moment ends." />
+    <meta name="twitter:description" content="One link that plays your start-to-end moment from YouTube, Vimeo, Dailymotion, Twitch or Rumble — then stops. Free, no account." />
     <meta name="twitter:image" content="https://clippyt.com/og-image.png" />
 
     <!-- Canonical URL -->
@@ -35,7 +35,19 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="ClippYT" />
-    <title>ClippYT — Clip and Share Videos</title>
+    <title>ClippYT — Share the exact moment of any video (YouTube, Vimeo, Twitch & more)</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ClippYT",
+      "url": "https://clippyt.com/",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "Share the exact moment of any YouTube, Vimeo, Dailymotion, Twitch or Rumble video. One link that plays your start-to-end moment and stops when it ends."
+    }
+    </script>
     <!-- Speed up first connection to video/thumbnail origins -->
     <link rel="preconnect" href="https://www.youtube.com" />
     <link rel="preconnect" href="https://i.ytimg.com" />
@@ -44,9 +56,9 @@
          The player adapter (sdkLoader) injects it on demand, so pages without
          a player (browse, settings, auth, ...) no longer download ~150 KB of
          YouTube widget JS on every visit. -->
-    <script type="module" crossorigin src="/assets/index-ChlIGyUx.js"></script>
+    <script type="module" crossorigin src="/assets/index-7LciTqP1.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-C4-oOo0Z.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-DItkPTfP.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-B7Bdkwap.css">
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <div id="root">
@@ -57,7 +69,7 @@
           <p style="color:#6b7280;">Loading application...</p>
         </div>
       </div>
-    </div>
+    </div>
     <script>
       // PWA Install Prompt Handler
       let deferredPrompt;
