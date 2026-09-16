@@ -63,3 +63,32 @@ test('preview page has Open Graph tags', async ({ request, baseURL }) => {
   expect(html).toMatch(/<meta name="twitter:card" content="(player|summary_large_image)"/);
   expect(html).not.toMatch(/<title>ClippYT<\/title>/);
 });
+
+test('SEO surfaces: sitemap index, platform page, VideoObject, oEmbed', async ({ request, baseURL }) => {
+  const idx = await request.get(`${baseURL}/sitemap.xml`);
+  expect(idx.status()).toBe(200);
+  const idxXml = await idx.text();
+  expect(idxXml).toContain('<sitemapindex');
+  expect(idxXml).toContain('/sitemap-clips.xml');
+
+  const clips = await request.get(`${baseURL}/sitemap-clips.xml`);
+  expect(clips.status()).toBe(200);
+  expect(await clips.text()).toContain(`/clip/${SEED_CLIP}`);
+
+  const yt = await request.get(`${baseURL}/clip-youtube-video/`);
+  expect(yt.status()).toBe(200);
+  const ytHtml = await yt.text();
+  expect(ytHtml).toMatch(/<link rel="canonical" href="[^"]*\/clip-youtube-video"/);
+  expect(ytHtml).toContain('"@type":"FAQPage"');
+
+  const clipHtml = await (await request.get(`${baseURL}/clip/${SEED_CLIP}/`)).text();
+  expect(clipHtml).toContain('"@type":"VideoObject"');
+  expect(clipHtml).toContain('"@type":"Clip"');
+  const m = clipHtml.match(/type="application\/json\+oembed" href="([^"]+)"/);
+  expect(m).not.toBeNull();
+  const oembed = await request.get(m[1].replace(/&amp;/g, '&'));
+  expect(oembed.status()).toBe(200);
+  const body = await oembed.json();
+  expect(body.type).toBe('video');
+  expect(body.html).toContain(`/embed/${SEED_CLIP}`);
+});
