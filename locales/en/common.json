@@ -2,19 +2,17 @@
   "app": {
     "name": "ClippYT",
     "tagline": "The link that stops when the moment ends",
-    "description": "Share the exact moment of any YouTube, Vimeo or Dailymotion video"
+    "description": "Share the exact moment of any YouTube video"
   },
   "platforms": {
     "youtube": "YouTube",
-    "vimeo": "Vimeo",
-    "dailymotion": "Dailymotion",
     "all": "All Platforms"
   },
   "nav": {
     "home": "Home",
     "browse": "Browse",
-    "console": "My Clipps",
-    "clipConsole": "My Clipps",
+    "console": "My clips",
+    "clipConsole": "My clips",
     "settings": "Settings",
     "admin": "Admin",
     "auth": "Sign In",
@@ -70,7 +68,7 @@
     "noResults": "No results found",
     "noData": "No data available",
     "tryAgain": "Please try again",
-    "noClips": "No Clipps yet",
+    "noClips": "No clips yet",
     "noPlaylists": "No playlists found",
     "noUsers": "No users found",
     "nothingHere": "Nothing here yet",
@@ -84,7 +82,7 @@
   "success": {
     "clipCreated": "Saved",
     "clipUpdated": "Changes saved",
-    "clipDeleted": "Clipp deleted",
+    "clipDeleted": "Clip deleted",
     "playlistCreated": "Playlist created",
     "playlistUpdated": "Playlist updated",
     "playlistDeleted": "Playlist deleted",

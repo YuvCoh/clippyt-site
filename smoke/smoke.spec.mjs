@@ -18,12 +18,27 @@ test.describe.configure({ mode: 'serial' });
 // variable SMOKE_PLAYER=off to keep the OG check while skipping player tests.
 const playerTests = process.env.SMOKE_PLAYER !== 'off';
 
+test('home opens on the demo clip: handles live, looping', async ({ page }) => {
+  test.skip(!playerTests, 'SMOKE_PLAYER=off');
+  await page.goto('/');
+  // The paste box is there, and a real clip is already mounted beneath it
+  await expect(page.getByLabel('YouTube link')).toBeVisible();
+  await expect(page.locator('main iframe').first()).toBeVisible({ timeout: 45_000 });
+  await expect(page.getByRole('button', { name: /Set end here/ })).toBeEnabled({ timeout: 45_000 });
+  await expect(page.getByRole('button', { name: 'Looping selection' })).toBeVisible();
+  // No ad slot, no comparison table, no steps
+  await expect(page.locator('[data-ad], .ad-container, ins.adsbygoogle')).toHaveCount(0);
+  await expect(page.getByText('Compared with a YouTube timestamp link')).toHaveCount(0);
+});
+
 test('paste → mark → save', async ({ page }) => {
   test.skip(!playerTests, 'SMOKE_PLAYER=off');
   await page.goto('/');
-  const link = page.getByLabel('Video link');
+  const link = page.getByLabel('YouTube link');
   await expect(link).toBeVisible();
   await link.fill(VIDEO_URL);
+  // Pasting your own link replaces the demo: the demo line goes away
+  await expect(page.getByText('Try it: this clip is live')).toHaveCount(0, { timeout: 15_000 });
 
   // The player mounts (YouTube iframe inside the player container)
   // (the YouTube API replaces the container div with the iframe itself)
@@ -37,7 +52,7 @@ test('paste → mark → save', async ({ page }) => {
 
   // Save
   await page.getByLabel('Clip title').fill(SMOKE_TITLE);
-  const save = page.getByRole('button', { name: 'Save Clipp' });
+  const save = page.getByRole('button', { name: 'Save clip' });
   await expect(save).toBeEnabled();
   await save.click();
 
@@ -46,13 +61,17 @@ test('paste → mark → save', async ({ page }) => {
   await expect(page.getByRole('button', { name: 'Share' })).toBeVisible();
 });
 
-test('shared link plays', async ({ page }) => {
+test('shared link plays, with zero chrome', async ({ page }) => {
   test.skip(!playerTests, 'SMOKE_PLAYER=off');
   await page.goto(`/clip/${SEED_CLIP}`);
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible({ timeout: 30_000 });
   const iframe = page.locator('main iframe').first();
   await expect(iframe).toBeVisible({ timeout: 45_000 });
-  await expect(page.getByRole('button', { name: 'Copy link' })).toBeVisible();
+  await expect(page.getByRole('progressbar')).toBeVisible();
+  // The recipient sees the moment and nothing else: no site nav, no footer, no maker tools
+  await expect(page.locator('header, footer, nav')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Copy link' })).toHaveCount(0);
+  await expect(page.getByText('Up next')).toHaveCount(0);
 });
 
 test('preview page has Open Graph tags', async ({ request, baseURL }) => {

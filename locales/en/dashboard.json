@@ -1,6 +1,6 @@
 {
-  "title": "My Clipps",
-  "subtitle": "Your Clipps and playlists",
+  "title": "My clips",
+  "subtitle": "Your clips and playlists",
   "mainScreen": {
     "heroTitle": "ClippYT",
     "heroSubtitle": "The link that stops when the moment ends",
@@ -10,17 +10,17 @@
       "step3": "Share"
     },
     "urlPlaceholder": "Paste a video link",
-    "emptyUrlError": "Paste a YouTube, Vimeo or Dailymotion link to start.",
+    "emptyUrlError": "Paste a YouTube link to start.",
     "tryLoadVideo": "Open video",
     "loadingVideo": "Loading video",
     "playPreview": "Loop selection",
     "pausePreview": "Pause",
     "pause": "Pause",
     "advancedSettings": "Playback settings",
-    "clipIt": "Save Clipp",
-    "clipItButton": "Save Clipp",
+    "clipIt": "Save clip",
+    "clipItButton": "Save clip",
     "creatingClip": "Saving",
-    "untitledClip": "Untitled Clipp",
+    "untitledClip": "Untitled clip",
     "failedToCreate": "Couldn't save. Check your connection and press Save again - your handles are still set.",
     "startTimeLabel": "Start Time",
     "endTimeLabel": "End Time",
@@ -56,30 +56,21 @@
     "makePrivate": "Make private",
     "keyboardShortcuts": "Keyboard Shortcuts",
     "close": "Close",
-    "closeKeyboardShortcuts": "Close keyboard shortcuts",
-    "twitch": {
-      "liveUnsupported": "Twitch live stream clipping isn't ready yet. Try a Twitch VOD or clip URL instead.",
-      "liveAuthRequired": "Twitch live stream clipping requires authentication. Connect your Twitch account or use a VOD or clip URL.",
-      "liveAuthDismissInfo": "Twitch live stream clipping requires authentication. Try a Twitch VOD or clip URL instead, or connect your Twitch account to clip live streams.",
-      "oauthNotConfigured": "Twitch login isn't configured yet. Please contact support.",
-      "authPopupInfo": "Please complete the authorization in the Twitch popup window.",
-      "clipUnmappedBadge": "Twitch clip (limited controls)",
-      "clipUnmappedMessage": "This Twitch clip is playing directly from Twitch. Some clips can't be mapped to a VOD, so preview controls are disabled. Use the controls inside the Twitch player instead."
-    }
+    "closeKeyboardShortcuts": "Close keyboard shortcuts"
   },
   "signupPrompt": {
-    "title": "Keep your Clipps together",
+    "title": "Keep your clips together",
     "intro": "A free account adds:",
     "benefits": {
-      "track": "All your Clipps in one place, on every device",
+      "track": "All your clips in one place, on every device",
       "edit": "Rename and re-trim them later",
       "counter": "A view count for each one",
       "descriptions": "Descriptions and titles you can edit",
-      "drafts": "Private Clipps only you can open",
+      "drafts": "Private clips only you can open",
       "playlists": "Playlists"
     },
-    "anonymousNote": "Clipps made signed out stay on this device only and are kept for one year.",
-    "changeYourMind": "You can sign in later - your Clipps come with you.",
+    "anonymousNote": "Clips made signed out stay on this device only and are kept for one year.",
+    "changeYourMind": "You can sign in later - your clips come with you.",
     "signUpButton": "Create account",
     "skipButton": "Not now",
     "doNotAskButton": "Don't ask again"
@@ -89,14 +80,14 @@
     "playlists": "Playlists"
   },
   "clips": {
-    "title": "Your Clipps",
-    "create": "New Clipp",
-    "edit": "Edit Clipp",
-    "delete": "Delete Clipp",
-    "share": "Share Clipp",
-    "empty": "No Clipps yet",
+    "title": "Your clips",
+    "create": "New clip",
+    "edit": "Edit clip",
+    "delete": "Delete clip",
+    "share": "Share clip",
+    "empty": "No clips yet",
     "emptyDescription": "Paste a link on Home to make your first one",
-    "search": "Search your Clipps",
+    "search": "Search your clips",
     "sortBy": "Sort by",
     "sortOptions": {
       "newest": "Newest first",
@@ -118,7 +109,7 @@
     "delete": "Delete Playlist",
     "share": "Share Playlist",
     "empty": "No playlists yet",
-    "emptyDescription": "A playlist groups Clipps into one shareable page",
+    "emptyDescription": "A playlist groups clips into one shareable page",
     "search": "Search playlists",
     "stats": {
       "clips": "{{count}} clip",
@@ -126,7 +117,7 @@
     }
   },
   "createClip": {
-    "title": "New Clipp",
+    "title": "New clip",
     "videoUrl": "Video URL",
     "videoUrlPlaceholder": "Paste a video link",
     "startTime": "Start Time",
@@ -144,21 +135,21 @@
     "muted": "Muted",
     "controls": "Show Controls",
     "relatedVideos": "Show Related Videos",
-    "button": "Save Clipp",
+    "button": "Save clip",
     "success": "Saved",
     "error": "Couldn't save. Check your connection and try again."
   },
   "editClip": {
-    "title": "Edit Clipp",
+    "title": "Edit clip",
     "button": "Save changes",
     "success": "Changes saved",
     "error": "Couldn't save your changes. Try again."
   },
   "deleteClip": {
-    "title": "Delete this Clipp?",
+    "title": "Delete this clip?",
     "message": "Its link stops working for everyone. This cannot be undone.",
     "button": "Delete",
-    "success": "Clipp deleted",
+    "success": "Clip deleted",
     "error": "Couldn't delete it. Try again."
   },
   "createPlaylist": {

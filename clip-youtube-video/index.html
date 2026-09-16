@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta name="google-adsense-account" content="ca-pub-8476549975254142">
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Make a YouTube link with a start AND an end time. Paste the video, mark the moment, share one link that plays only that part and stops when it ends. Works with Shorts. Free, no download, no account." />
-    <meta name="keywords" content="share part of a youtube video, youtube link with start and end time, clip youtube video, clip vimeo video, clip dailymotion video, video timestamp link, share video moment" />
+    <meta name="keywords" content="share part of a youtube video, youtube link with start and end time, clip youtube video, youtube clip any length, video timestamp link, share video moment" />
     <meta name="author" content="ClippYT" />
     <meta name="theme-color" content="#DC2626" />
 
@@ -29,7 +29,6 @@
     <link rel="canonical" href="https://clippyt.com/clip-youtube-video" />
 
     <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/logo.svg" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -45,7 +44,7 @@
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "Any",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "description": "Share the exact moment of any YouTube, Vimeo or Dailymotion video. One link that plays your start-to-end moment and stops when it ends."
+      "description": "Share the exact moment of any YouTube video. One link that plays your start-to-end moment and stops when it ends."
     }
     </script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I clip a YouTube Short?","acceptedAnswer":{"@type":"Answer","text":"Yes. Paste the Shorts link like any other; the clip page plays it in the normal player."}},{"@type":"Question","name":"Does the creator still get the view?","acceptedAnswer":{"@type":"Answer","text":"Yes. ClippYT never copies or re-uploads video. Your link opens the original video in YouTube's embedded player, jumped to your start and stopped at your end."}},{"@type":"Question","name":"Is there a length limit?","acceptedAnswer":{"@type":"Answer","text":"No. Three seconds or thirty minutes, you decide. YouTube's built-in Clips stop at 60 seconds."}},{"@type":"Question","name":"Do I need an account?","acceptedAnswer":{"@type":"Answer","text":"No. Make and share clips anonymously; an account only adds a library and playlists."}}]}</script>
@@ -55,11 +54,11 @@
     <link rel="preconnect" href="https://img.youtube.com" />
     <!-- NOTE: the YouTube iframe API script is intentionally NOT loaded here.
          The player adapter (sdkLoader) injects it on demand, so pages without
-         a player (browse, settings, auth, ...) no longer download ~150 KB of
+         a player (auth, about, ...) no longer download ~150 KB of
          YouTube widget JS on every visit. -->
-    <script type="module" crossorigin src="/assets/index-B4pgYgel.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-C4-oOo0Z.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-1jx7z8uL.css">
+    <script type="module" crossorigin src="/assets/index-JU4BvtiP.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-9jbn6qnM.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CmmFFFbB.css">
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <div id="root">

@@ -32,10 +32,10 @@
     "invalidUrl": "That isn't a video link. Copy the address from the browser bar of the video page.",
     "notAUrl": "That looks like a search, not a link.\n1. Open the video\n2. Copy the address from the browser bar",
     "searchQueryOrTitle": "That looks like a title, not a link.\n1. Open the video\n2. Copy the address from the browser bar",
-    "typoInDomain": "Check the spelling of the address - it doesn't match YouTube, Vimeo or Dailymotion.",
-    "otherPlatformNotSupported": "ClippYT works with YouTube, Vimeo and Dailymotion links for now.",
+    "typoInDomain": "Check the spelling of the address - it doesn't look like a YouTube link.",
+    "otherPlatformNotSupported": "ClippYT clips YouTube videos. Paste a YouTube link.",
     "invalidTimeRange": "The end has to come after the start",
-    "titleRequired": "Give the Clipp a title",
+    "titleRequired": "Give the clip a title",
     "titleTooLong": "Title must be less than 100 characters",
     "descriptionTooLong": "Description must be less than 500 characters",
     "emailInvalid": "Please enter a valid email address",
@@ -46,7 +46,7 @@
     "loadFailed": "Couldn't load this video. It may be private, removed, or blocking embeds - try another link.",
     "saveFailed": "Couldn't save. Check your connection and press Save again - your handles are still set.",
     "deleteFailed": "Couldn't delete it. Try again.",
-    "notFound": "This Clipp no longer exists. It may have been deleted by its maker.",
+    "notFound": "This clip no longer exists. It may have been deleted by its maker.",
     "invalidVideo": "That link isn't a video ClippYT can play."
   },
   "playlist": {
